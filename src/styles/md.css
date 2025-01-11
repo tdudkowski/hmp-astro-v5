@@ -1,0 +1,119 @@
+/* footer {flex-basis: 5rem; border:1px solid #666; } */
+/* footer ul {padding-left: 0; margin: 0; list-style-type: none; padding-left: 0;} */
+main {padding: 2rem 0;}
+main p, main h3 {padding: .5rem; margin: 0;}
+
+footer {border-top: 1px solid #bba;}
+footer a {text-decoration: none;}
+footer a:hover {text-decoration: underline;}
+footer p {text-align: center; margin: 1rem;}
+
+footer .mainnavigation ul {padding: 1rem; margin: 0;}
+footer .mainnavigation a, .footernavigation a {display: block; font-size: 1.3rem; font-weight: bold; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.footernavigation ul {padding-left: 0; display: flex; flex-direction: column;  list-style-type: none;}
+.footernavigation li {text-align: right; margin-right: 4rem;}
+/* .footernavigation ul {margin: 1rem 0;} */
+
+/* ASIDE */
+
+.aside-section-menu {border-left: 1px solid rgba(250, 250, 250, .2);}
+.aside-section-menu h3 {margin-left: 1.5rem;}
+.aside-section-menu ul {list-style-type: circle;  }
+
+/* TOC */
+
+.article-toc h3 {margin-left: 2rem;}
+.article-toc ul {list-style-type: "\2218   ";}
+.article-toc a {text-decoration: none;}
+.article-toc a:hover {text-decoration: underline;}
+
+a.active {
+  text-decoration: underline;
+  background-color: rgba(251, 251, 201, .1);
+  text-shadow: rgba(51, 51, 51, .2) 2px 2px 5px;
+  color: #331;
+}
+
+h2 .tag {color: red; background-color: rgba(50, 50, 5, .1); padding: .5rem; border-bottom: 1px solid #997;}
+
+/* IMAGE */
+
+.boximagewrapper {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 0 0;
+  border-width: 1px 0;
+  }
+
+.boximagewrapper p img {width: 100%; height: 100%; object-fit: contain;}
+.boximagewrapper p:nth-of-type(1) {padding-left: 0; padding: 0; margin-bottom: -4px;}
+.boximagewrapper p {padding-left: 2rem; padding: .8rem;}
+
+/* PRESENTATION fdede5 */
+
+.blogheader h2 {margin: 0; text-align: center; font-size: 2rem;;}
+
+h2 {font-family: "Cardo", serif; font-size: 1.7rem; margin-top: 2rem; padding: .5rem; border-bottom: 1px solid #995;}
+h3 {font-family: "Cardo", serif; font-size: 1.3rem;}
+
+/*  */
+
+/* footer, .wrapper>header {background-color: rgb(38, 50, 60, .5); padding: 1px; color: #443;} */
+/* footer .mainnavigation {background-color: rgba(250, 250, 250, 0.1);} */
+
+footer hr {border-color: #dda; margin: 0;}
+footer span {font-family: 'Hultog', sans-serif; font-size: 1.6rem;}
+
+/* footer a, footer p { color: rgb(248, 243, 231); } */
+
+/* COMPONENT STYLES */
+
+/* .article-toc {top: 0; position: sticky;} */
+.menu-title {text-transform: uppercase;}
+
+.breadcrumbs {margin: .5rem; padding: .6rem; border: 1px solid #997; font-weight: 800;}
+.breadcrumbs a {padding: .6rem;}
+
+.seealso {margin: 1rem; padding: 1rem; border: 1px solid rgba(150, 150, 150, .5); border-radius: 1px; background-color: rgba(250, 250, 250, .1);}
+
+blockquote {color: rgb(35, 35, 5, .8); position: relative;}
+blockquote::before {
+    position: absolute;
+    content: "\"";
+    color: rgba(35, 35, 5, .4);
+    left: -2rem;
+    top: -1rem;
+    font-size: 4rem;
+    width: 40px;
+    font-family:  'Hultog', sans-serif;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.blogpostslist {list-style-type: none; display: flex; flex-wrap: wrap;}
+.blogpostslist li {flex-basis: 90%; min-height: 6rem; margin: 2rem; box-shadow: 1px 1px 20px #dda;}
+.blogpostslist a {display: inline-block; width: calc(100% - 1rem); margin: 1rem 0; padding: 1rem .5rem; background-color: rgba(51, 51, 31, .3); }
+.blogpostslist li:hover { box-shadow: 1px 1px 20px #992; transform: scale(1.03); transition: transform .2s;}
+
+.blogtags {display: flex; list-style-type: none; padding-left: 0; border: 1px solid #442; border-width: 1px 0; background-color: rgba(151, 151, 251, .1);}
+.blogtags li {display: inline-block; margin: .5rem;}
+.blogtags a {display: block;}
+
+@media (min-width: 500px) {
+    .blogpostslist li {flex-basis: 35%;}
+    footer ul, .footernavigation ul {flex-direction: row;}
+    footer li, .footernavigation li {margin-right: 0; flex: 1;}
+    footer a  {text-align: center;}
+   }
+  
+  @media (min-width: 800px) {
+      main {flex-direction: row;}
+      aside {flex-basis: 20rem;  min-width: 20rem;}
+      article {flex: 1; overflow: auto; max-width: 50rem; margin-left: 2rem;}
+      .article-toc { position: sticky; top: 0; align-self: baseline;}
+      .blogpostslist li {flex-basis: 40%; margin: 1rem .5rem}
+  }
+
+@media (min-width: 1200px) {
+  aside {flex-basis: 22rem; min-width: 22rem; padding-left: 2rem;}
+  .blogpostslist li {flex-basis: 30%;}
+}

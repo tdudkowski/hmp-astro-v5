@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../../layouts/FBLayout.astro';
+const allPostsArticle = Object.values(await import.meta.glob('../../../content/festung_breslau_article/*.mdx', { eager: true }));
+const allPostsBlog = Object.values(await import.meta.glob('../../../content/festung_breslau_blog/*.mdx', { eager: true }));
+const allPosts = allPostsBlog.concat(allPostsArticle)
+
+const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags.split(',').map(s => s.trim())).flat())];
+const pageTitle = "FB Article Tag Index";
+---
+
+<BaseLayout title={pageTitle}>
+
+  <h2>Lista tagów</h2>
+  
+  <ul class="fbpostslist">
+    {tags.map((tag) => (
+      <li><a href={`/festung-breslau/tags/${tag}`}><span>{tag}</span></a></li>
+    ))}
+  </ul>
+</BaseLayout>

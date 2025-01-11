@@ -1,0 +1,128 @@
+---
+import { getCollection } from 'astro:content';
+const allPostsArticle = await getCollection('festung_breslau_article');
+
+import TOC from './TOC.astro'
+export interface Props {
+     title: string;
+    headings: {
+    slug: string;
+    text: string;
+    depth: number;
+  }[]
+}
+
+const { title, headings } = Astro.props;
+---
+
+<aside>
+    <!-- <p><a href="/festung-breslau">Festung Breslau</a></p> -->
+    <div class="impressum">
+      <h3>Impressum</h3>
+      <p>Blog wojenny. Codzienna relacja z bitwy o Wrocław. W tle wydarzenia z całego świata.<br />
+        120 dni końca wojny w Europie: od 12 stycznia do 11 maja 1945.</p>
+    </div>
+
+    <!-- <p>title here {title}</p>
+    <ul>
+        {allPostsArticle.map((post) => <li><a href={`/festung-breslau/article/${post.slug}`}>{post.data.title}</a></li>)}
+    </ul> -->
+
+<h3>Blog</h3>
+
+<ul>
+  <li><a href="/festung-breslau/article/blog">Blog Wojenny - edycja 2022</a></li>
+  <li><a href="/festung-breslau/posts">Lista wpisów</a></li>
+  <li><a href="/festung-breslau/article">Lista artykułów</a></li>
+  <li><a href="/festung-breslau/tags">Lista tagów</a></li>
+  <li><a href="/festung-breslau/article/bibliografia">Bibliografia</a></li>
+  <li><a href="/festung-breslau/article/kalendarium">Kalendarium</a></li>
+</ul>
+
+<h3>Dolny Śląsk</h3>
+
+<ul>
+  <li><a href="/festung-breslau/article/klasztor-augustianow">Klasztor augustianów na Wyspie Piaskowej</a></li>
+  <li><a href="/festung-breslau/article/zoo">Wrocławski Ogród Zoologiczny (1865 - 1945)</a></li>
+  <li><a href="/festung-breslau/article/wojsko-dlnslask">Wojsko na Dolnym Śląsku 1740-1945</a></li>
+  <li><a href="/festung-breslau/article/kl-gross-rosen">Obóz koncentracyjny Groß-Rosen (1940-45)</a></li>
+  <li><a href="/festung-breslau/article/szczepin-bitwa">Bitwa pancerna na Szczepinie 18 IV 1945</a></li>
+  <li><a href="/festung-breslau/article/grupa-drobnera">Grupa inicjatywna Drobnera</a></li>
+</ul>
+
+<h3>Berlin</h3>
+
+<ul>
+  <li><a href="/festung-breslau/article/berlin-opis">Berlin do 1945</a></li>
+  <li><a href="/festung-breslau/article/berlin-1945">Bitwa o Berlin</a></li>
+</ul>
+
+<h3>Wojna</h3>
+
+<ul>
+  <li><a href="/festung-breslau/article/panstwo-hitlerowskie">Państwo hitlerowskie</a></li>
+  <li><a href="/festung-breslau/article/ostfront">O przyczynie wojny na wschodzie</a></li>
+  <li><a href="/festung-breslau/article/obozy-koncentracyjne">Obozy koncentracyjne</a></li>
+  <li><a href="/festung-breslau/article/armia-czerwona">Armia Czerwona 1945</a></li>
+  <li><a href="/festung-breslau/article/2awp">2 Armia WP</a></li>
+  <li><a href="/festung-breslau/article/drezno-bombardowanie">Drezno bombardowanie 13-15 lutego 1945</a></li>
+  <li><a href="/festung-breslau/article/depesza-eisenhowera">Depesza Eisenhowera (SCAF 252)</a></li>
+  <li><a href="/festung-breslau/article/bieguny">Wojna na krawędziach świata</a></li>
+</ul>
+
+<h3>Armia niemiecka</h3>
+
+<ul>
+  <li><a href="/festung-breslau/article/armia-niemiecka">Armia niemiecka 1918-45</a></li>
+  <li><a href="/festung-breslau/article/front-niemiecki-1945">Front niemiecki w Polsce w 1945</a></li>
+  <li><a href="/festung-breslau/article/ss">SS</a></li>
+  <li><a href="/festung-breslau/article/volkssturm">Volkssturm</a></li>
+  <li><a href="/festung-breslau/article/wunderwaffe">Wunderwaffe</a></li>
+  <li><a href="/festung-breslau/article/wunderwaffe-lotnictwo">Wunderwaffe - lotnictwo</a></li>
+  <li><a href="/festung-breslau/article/wunderwaffe-rakiety">Wunderwaffe - rakiety</a></li>
+  <li><a href="/festung-breslau/article/vergeltungswaffe">Vergeltungswaffe (Broń Zemsty) V1 - V4</a></li>
+  <li><a href="/festung-breslau/article/kapitulacja">Kapitulacja - Dzień Zwycięstwa</a></li>
+</ul>
+
+<h3>Europa</h3>
+
+<ul>
+  <li><a href="/festung-breslau/article/albania">Albania</a></li>
+  <li><a href="/festung-breslau/article/bulgaria">Bułgaria</a></li>
+  <li><a href="/festung-breslau/article/chorwacja">Chorwacja</a></li>
+  <li><a href="/festung-breslau/article/jugoslawia">Jugosławia</a></li>
+  <li><a href="/festung-breslau/article/rumunia">Rumunia</a></li>
+  <li><a href="/festung-breslau/article/serbia">Serbia</a></li>
+  <li><a href="/festung-breslau/article/slowacja">Słowacja</a></li>
+  <li><a href="/festung-breslau/article/wegry">Węgry</a></li>
+</ul>
+
+<h3>Wojna na Pacyfiku</h3>
+
+<ul>
+  <li><a href="/festung-breslau/article/pacyfik-japonia">Japonia - opis i historia</a></li>
+  <li><a href="/festung-breslau/article/pacyfik-1937-44">1937-44</a></li>
+  <li><a href="/festung-breslau/article/pacyfik-1945">1945</a></li>
+  <li><a href="/festung-breslau/article/pacyfik-iwo-jima">Bitwa o Iwo Jimę</a></li>
+  <li><a href="/festung-breslau/article/pacyfik-bron">Broń</a></li>
+  <li><a href="/festung-breslau/article/pacyfik-yanagi">Misje Yanagi</a></li>
+  <li><a href="/festung-breslau/article/pacyfik-podsumowanie">Podsumowanie</a></li>
+</ul>
+
+<h3>Biografie</h3>
+
+<ul>
+  <li><a href="/festung-breslau/article/adolf-bertram">Arcybiskup Adolf Bertram (1859-1945)</a></li>
+  <li><a href="/festung-breslau/article/hanna-reitsch">Kapitan Hanna Reitsch (1912-79)</a></li>
+  <li><a href="/festung-breslau/article/iwan-polbin">Generał Iwan Połbin (1905-45)</a></li>
+  <li><a href="/festung-breslau/article/sophie-scholl">Sophie Scholl (1921-43)</a></li>
+  <li><a href="/festung-breslau/article/werner-molders">Podpułkownik Werner Mölders (1913-41)</a></li>
+</ul>
+
+    {headings && headings.length > 0 && (
+        <nav class="article-toc">
+          <h3>Spis treści</h3>
+          <TOC headings={headings} />
+        </nav>
+      )}
+</aside>

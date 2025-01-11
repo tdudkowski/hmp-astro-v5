@@ -1,0 +1,54 @@
+---
+import '../styles/global.css';
+import '../styles/prism.css';
+const pageTitle = "testo";
+---
+
+<html lang="pl" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<title>{pageTitle}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href="https://fonts.cdnfonts.com/css/hultog" rel="stylesheet">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+                <link rel="sitemap" href="/sitemap-index.xml" />
+           
+	</head>
+	<body class="data-line">
+    
+        <div class="wrapper">
+<slot />
+        </div>
+        <script src="../scripts/prism.js"></script>
+   </body>
+</html>
+
+<script>
+        addIntersectionObserver();
+        
+        function addIntersectionObserver() {
+            const observer = new IntersectionObserver((sections) => {
+                console.log('sections', sections);
+                sections.forEach((section) => {
+                    const heading = section.target.querySelector('h2, h3, h4, h5');
+                    if (!heading) return;
+                    const id = heading.getAttribute('id');
+        
+                    // Get the link to this section's heading
+                    const link = document.querySelector(`nav.toc li a[href="#${id}"]`);
+                    if (!link) return;
+        
+                    // Add/remove the .active class based on whether the
+                    // section is visible
+                    const addRemove = section.intersectionRatio > 0 ? 'add' : 'remove';
+                    link.classList[addRemove]('active');
+                });
+            });
+        
+            document.querySelectorAll('article section').forEach((section) => {
+                observer.observe(section);
+            })
+        }
+    </script>

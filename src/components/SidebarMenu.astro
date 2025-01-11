@@ -1,0 +1,24 @@
+---
+import TOC from './TOC.astro'
+import jsondata from '../content/json/menus.json'
+export interface Props {
+     title: string;
+    headings: {
+    slug: string;
+    text: string;
+    depth: number;
+  }[]
+}
+const { headings, subsection } = Astro.props;
+---
+
+<h3><span class="menu-title">{subsection}</span></h3>
+<ul>
+{subsection? jsondata[`${subsection}`].map((link) => <li><a href={link.url}>{link.title}</a></li>) : null}
+</ul>
+    {headings && headings.length > 0 && (
+        <nav class="article-toc">
+          <h3>Spis treści</h3>
+          <TOC headings={headings} />
+        </nav>
+   )}

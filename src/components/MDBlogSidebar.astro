@@ -1,0 +1,35 @@
+---
+import TOC from './TOC.astro'
+import jsondata from '../content/json/menus.json'
+export interface Props {
+     title: string;
+    headings: {
+    slug: string;
+    text: string;
+    depth: number;
+  }[]
+}
+
+const {headings, section, subsection } = Astro.props;
+---
+
+<aside>
+    <h3>Sekcje bloga</h3>
+    <ul>
+      {section ? jsondata[`${section}`].map((link) => <li><a href={link.url}>{link.title}</a></li>) : null}
+  </ul>
+  <ul>
+    <li><a href="/blog/tags">Lista tagów</a></li>
+  </ul>
+<h3>Wpisy w tej sekcji:</h3>
+<ol>
+  {subsection? jsondata[`${subsection}`].map((link) => <li><a href={link.url}>{link.title}</a></li>) : null}
+  </ol>
+  
+    {headings && headings.length > 0 && (
+        <nav class="article-toc">
+          <h3>Spis treści wpisu</h3>
+          <TOC headings={headings} />
+        </nav>
+      )}
+</aside>

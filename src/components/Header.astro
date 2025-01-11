@@ -1,0 +1,20 @@
+---
+import ButtonToggleLD from './ButtonToggleLD.astro'
+import MainNavigation from './MainNavigation.astro'
+import Glider from './Glider.astro'
+import '../styles/header.css'
+---
+
+<header>
+    <div class="logo">
+    <ButtonToggleLD />
+    <div class="whoami">Tadeusz Dudkowski Homepage:</div>
+    <div class="pagename"><a href="/">dygresje.info <span>|</span> <Glider /></a></div>
+    </div>
+    <div class="menu"><hr /><MainNavigation /></div>
+
+</header>
+
+<style>
+    /* .logobutton a {display: inline-block;} */
+</style>

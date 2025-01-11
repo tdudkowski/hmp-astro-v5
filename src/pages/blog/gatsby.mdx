@@ -1,0 +1,65 @@
+---
+layout: '../../layouts/MDBlogLayout.astro'
+title: Hello, Gatsby!
+menuSidebar: blog
+section: blog
+subsection: gatsby
+tags: gatsby
+---
+
+Bloga rozpoczynam serią wpisów o Gatsbym, popularnym miegdyś frameworku Reacta.
+
+Coż, powyższe zdanie nie brzmi zachęcająco, ale w istocie - choć bardzo bym chciał żeby było inaczej - Gatsby jest przeszłością. Został kupiony przez Netlify'a, który jest raczej firmą hostingową i najwidoczniej był jakiś konflikt interesów jego biznesu z nową usługą Gatsby Cloud. Komunikat o kupnie tryskał fajerwerkami i korpoentuzjazmem, ale efekt był taki że doszło do wrogiego przejęcia zespołu deweloperskiego i Gastby jako framework, jako narzędzie do tworzenia stron jest martwy.
+
+Wystarczy popatrzeć na daty. Wersja 5.0 to listopad 2022. Kolejne wersje rozwojowe ukazują się co dwa, trzy miesiące, aż do 5.12 (sierpień 2023), kolejna to już grudzień. I od grudnia praktycznie przez cały rok cisza. Dopiero w listopadzie 2024 wypuszczona zostaje 5.14 w całości składająca się z łatek. Ani słowa o wersji 6. Strona [Gatsby](https://www.gatsbyjs.com/) jest właściwie przekierowaniem do Netlify'a i jak się chce to nawet można odszukać dokumentację, ale nawigacja za bardzo w tym nie pomaga.
+
+Dlaczego zatem nie skasuję tych wpisów? Trochę z sentymentu, bo włożyłem w to trochę pracy, bo wielu rzeczy się nauczyłem itd. Ale tak poza tym może się to komuś jeszcze przydać, także i mi bo parę stron na Gastbym zrobiłem.
+
+Póki co, tak na szybko - jakie są dobre inne możliwości, co zamiast Gatsby'ego?
+
+- [Astro](https://astro.build/) - to jest mój wybór na ten moment i najpewniej następna seria wpisów będzie właśnie tego dotyczyła.
+- [NextJS](https://nextjs.org/) - wiadomo, klasyka
+- [qwik](https://qwik.dev/)
+
+OK, tyle uaktualnienia - do rzeczy.
+
+Zainteresowanym Gatsbym polecam:
+
+- darmowy kurs Przeprogramowanych: [Gatsby - krok po kroku, od zera do gotowej aplikacji](https://przeprogramowani.pl/darmowy-kurs-gatsby), jest to seria, w tej chwili siedmiu artykułów, na pewno wartych przeczytania. Lektura obowiązkowa. Ponadto trzy wpisy na blogu Łukasza Zielińskiego [3 post(ów) z tagiem “Gatsby.js”](https://lukasz-zielinski.pl/tags/gatsby-js/)
+- artykuł na mojej stronie: [GatsbyJS](/it/js/gatsby), choć, prawdę mówiąc, po wykasowaniu / przeniesieniu zdublowanej treści niewiele tam już pozostało.
+- kurs na Eduwebie autorstwa Adama Romańskiego.
+
+Wszystkie przedstawione tu rozwiązania sprawdziłem, nie jest to copypaste dokumentacji. Jednak żadnej gwarancji nie mogę udzielić, bo na pewno wkradło się tu trochę błędów. Będę wdzięczny za wskazanie ich i wszystkie tak szybko jak to będzie możliwe, poprawię. Kontakt przez formularz kontaktowy na stronie lub facebooka dygresje.info.
+
+Innym rodzajem błędu, który mogłem tu popełnić, jest uznanie czegoś za zbyt oczywiste i pominięcie tego w opisie. Tutaj też proszę o zwrócenie uwagi.
+
+### Dotychczasowe wpisy
+
+ - [Gatsby cz. 1 - instalacja](/blog/gatsby-instalacja) - Ogólne informacje, czym jest Gatsby, metody instalacji i własny Gatsby From Scratch, hierarchia katalogów, konfiguracja, React Fragments, komponent Link, pierwsza działająca strona.
+ - [Gatsby cz. 2 - komponenty](/blog/gatsby-komponenty) - Komponenty, layout.js i komponenty layoutu. Budowa struktury strony. Przekazywanie propsów i sterowanie wyświetlaniem elementów strony. Web API Location.
+ - [Gatsby cz. 3 - CSS](/blog/gatsby-css) - Jak w Gatsbym zastosować CSS: global.css, CSS-in-JS, frameworki i biblioteki CSS, preprocesory, Font Awesome, Google Fonts, Bootstrap Icons.
+ - [Gatsby cz. 4 - GraphQL & obrazki](/blog/gatsby-graphql) - GraphQL zastępuje REST API i plugin gatsby-plugin-image
+ - [Gatsby cz. 5 - pluginy](/blog/gatsby-pluginy) - Najbardziej potrzebne pluginy: dostęp do plików, obrazki, SEO, breadcrumb itd.
+ - [Gatsby cz. 6 - dawaj, dawaj, deploy](/blog/gatsby-deploy) - Publikacja strony online. Czym jest CI/CD i do czego nam jest potrzebne. Znaczenie gita, GitHub. Hosting: GitHub Pages, Netlify, Gatsby Cloud, Vercel i wreszcie... zwykły serwer.
+ - [Gatsby cz. 7 - blog MDX cz. 1](/blog/gatsby-blog-1) - Markdown a MDX, programistyczne tworzenie stron z gatsby-node.js i File System Route API, automatycznie generowane tagi
+ - [Gatsby cz. 8 - menu RWD z Hamburgerem](/blog/gatsby-menu) - Responsywne menu Hamburger, Dropdown Menu oraz Mega Menu
+
+### Co dalej?
+
+W lipcu i sierpniu 2021 w ciągu dwóch tygodni napisałem / dopracowałem siedem wpisów, które były już wcześniej w różnym stopniu gotowe, w tym dwa kompletnie od zera. To było interesujące, ale potem nastąpiły inne obowiązki, m.in. ruszyłem z cyklem wpisów o Enigmie. Dlatego nastąpiła dłuższa przerwa.
+
+W maju 2022 dodałem wpis o menu. I jak wiadomo już rok później Gatsby śmiało zmierzał ku zagładzie. Plany na kolejne wpisy były i dotyczyły kolejnych ficzerów bloga: chmura tagów, paginacja, poprzedni / następny, automatyczna publikacja danego dnia, komentarze..., poza tym Headless CMS: Wordpress, Drupal, Strapi, oraz różnych integracji, szablonów, PWA, SSR itp. itd. Miało z tego wyjść około 12 wpisów.
+
+W tej chwili jakimś tam planem jest po prostu podniesienie opisu dotyczącego v4 do v5 i na tym koniec. Za jakieś dwa, może trzy lata rosnąca niezgodność istniejących wdrożeń Gatsby'ego z powszechnie stosowanymi parametrami środowiska wymiecie ostatnie strony i wtedy z żalem, no ale trudno, skasuję tę część bloga.
+
+Póki co ten adres: `https://dygresje.info/blog/gatsby` zostaje i nie ulegnie zmianie.
+
+### Założenia
+
+Co zaś do formuły treści: mnie najbardziej interesuje nie teoria, a konkretny sposób budowania rzeczy. Więcej się nauczyłem z analizy kodu niż kilobajtów dokumentacji (ma to też wiele wad, więc nie zalecam; niech każdy robi tak jak lubi/chce/musi, w tej kolejności). Dlatego często jest to prezentacja większych fragmentów kodu z kilkoma ważnymi elementami i w miarę dokładnym opisem tego, co się tam dzieje. Uważam, że jest to szybsze niż składanie działającej maszyny z drobnych porozrzucanych po całym artykule kawałków. Mając od razu działający kod szybko można przejść do eksperymentów i łatwiej zapamiętać to, co się udało zrozumieć.
+
+Założeniem każdego odcinka serii jest bycie success-complete, chodzi o to, żeby po przeczytaniu można było coś zbudować. Już w pierwszym odcinku zobaczysz własną stronę w Gatsbym.
+
+Zakładam, że czytelnik dobrze zna podstawy JS, rozumie jak działa React i zna JSX, używa gita, umie poruszać się w konsoli i wie, jak działa strona WWW. Pisząc o konsoli, mam na myśli konsolę linuksową i naprawdę tylko podstawowe polecenia typu cd, mkdir, rm, ls.
+
+Postaram się też odróżniać, kiedy używamy mechanizmów Gatsby'ego, kiedy samego Reacta, a kiedy jest to sam JS.

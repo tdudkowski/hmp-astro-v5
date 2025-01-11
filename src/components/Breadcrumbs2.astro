@@ -1,0 +1,31 @@
+---
+const {currentPath}=Astro.props; 
+export const getBreadcrumbs = ( currentPath ) => {
+const pathSegments = currentPath.split('/').filter(segment => segment.trim() !== '');
+const breadcrumbs = pathSegments.map((_, index) => {
+const link = `/${pathSegments.slice(0, index + 1).join('/')}`;
+const label = pathSegments.at(index) ;
+return { label, link };
+});
+currentPath !== '/' && breadcrumbs.unshift({ label: "Home", link: "/" });
+return breadcrumbs;
+}
+
+const breadcrumbs=getBreadcrumbs(currentPath);
+---
+
+<!-- You can tweak the label to convert the link to a string or whatever. Now you can do:```ts -->
+
+{breadcrumbs?.map(({ link, label }) => {
+const isLast = breadcrumbs.at(-1).link === link
+return (
+<>
+{!isLast ? (
+<a href={link}>{label}</a>
+) : (
+<span>{label}</span>
+)}
+{!isLast && " / "}
+</>
+);
+})}

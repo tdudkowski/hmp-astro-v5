@@ -1,0 +1,26 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Sidebar from "../components/Sidebar.astro";
+import Breadcrumbs from "../components/Breadcrumbs2.astro";
+import '../styles/md.css';
+import '../styles/colors.css';
+const currentPath=Astro.url.pathname;
+const { headings } = Astro.props;
+const { frontmatter } = Astro.props;
+const pageTitle = frontmatter.title ? frontmatter.title : "Blog Post List";
+---
+
+<BaseLayout title={pageTitle}>
+    <Header />
+<main>
+    <Sidebar title={pageTitle} headings={headings} section={frontmatter.section} subsection={frontmatter.subsection} />
+    <article>
+        <div class="breadcrumbs"><Breadcrumbs currentPath={currentPath} /></div>
+        <h2>{pageTitle} {frontmatter.menuContext}</h2>
+         <slot />
+    </article>
+</main>
+<Footer />
+</BaseLayout>

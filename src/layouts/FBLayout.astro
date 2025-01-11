@@ -1,0 +1,47 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import FBSidebar from "../components/FBSidebar.astro";
+import FBTagsList from "../components/FBTagsList.astro"
+import '../styles/fb.css';
+
+const { headings } = Astro.props;
+const { frontmatter } = Astro.props;
+const pageTitle = frontmatter ? frontmatter.title : "Blog Post List";
+
+let dateBlog = false;
+if (pageTitle != "Blog Post List") {
+dateBlog = frontmatter.date1945 ? frontmatter.title : false;
+}
+---
+
+<BaseLayout>
+            <header>
+                <ul>
+                    <li><a href="/">dygresje.info strona główna</a></li>
+                    <li><a href="https://www.facebook.com/dygresje.info">/ facebook</a></li>
+                    <li><a href="/kontakt">/ kontakt</a></li>
+                </ul>
+                
+                
+                <h1><a href="/festung-breslau">Festung Breslau 1945 täglich</a></h1>
+                <h2>wojenna kronika zagłady</h2>
+            </header>
+            <main>
+        
+            <FBSidebar headings={headings} />
+            <article>
+   
+                {(frontmatter && frontmatter.title) ? <h2><div>{frontmatter.date1945}</div><br />{pageTitle}</h2> : null }
+                {(frontmatter && frontmatter.title) ? <FBTagsList frontmatter={frontmatter} /> : null }
+                  <section>
+            <slot />
+                  </section>
+                {(frontmatter && frontmatter.title) ? <FBTagsList frontmatter={frontmatter} /> : null }
+            </article>
+
+            </main>
+            <footer>
+            <p>Festung Breslau 1945 täglich @ die <a href="https://astro.build/">Astro</a> Ausgabe @2024;</p>
+            <p><a href="/">dygresje.info</a> | <a href="/festung-breslau">Festung Breslau 1945 täglich</a></p>
+            </footer>
+</BaseLayout>

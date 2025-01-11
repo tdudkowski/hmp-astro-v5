@@ -1,0 +1,52 @@
+---
+import FBLayout from "../../layouts/FBLayout.astro";
+import PostSummary from '../../layouts/partials/FBBlogPostSummary.astro';
+import Pagination from '../../components/FBBlogPagination.astro';
+
+  export async function getStaticPaths({ paginate }) {
+  const allPosts = Object.values(await import.meta.glob('../../content/festung_breslau_blog/*.mdx', { eager: true }));
+  const formattedPosts = allPosts.sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date)).reverse();
+    return paginate(formattedPosts, {
+    pageSize: 10,
+  })
+}
+const { page } = Astro.props;
+const pathname = new URL(Astro.request.url).pathname.split('/');
+const firstPath = pathname[1];
+const allPosts = Object.values(await import.meta.glob('../../content/festung_breslau_blog/*.mdx', { eager: true }));
+---
+<FBLayout frontmatter>
+    <h2>Blog wojenny</h2>
+  
+  <ul class="posts list">
+    {
+      page.data.map((post) => (
+        <li>
+          <PostSummary 
+            url={post.url} 
+            page={page} 
+            title={post.frontmatter.title} 
+            date={post.frontmatter.date} 
+            date1945={post.frontmatter.date1945} 
+            img={post.frontmatter.img} 
+            description1={post.frontmatter.description1} 
+            tags={post.frontmatter.tags}
+          />
+        </li>
+      ))
+    }
+  </ul>
+
+  {allPosts.length > 10 ? (
+    <div class="pagination">
+         <Pagination length={page.lastPage} 
+        currentUrl={page.url.current} 
+        currentPage={page.currentPage} 
+        firstUrl={`/${firstPath}`} 
+        prevUrl={page.url.prev} 
+        nextUrl={page.url.next} 
+        lastUrl={`/${firstPath}/${page.lastPage}`}
+      />
+    </div>
+  ) : null}
+</FBLayout>

@@ -1,0 +1,126 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/front.css'
+import '../styles/colors.css';
+---
+
+<BaseLayout>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>
+    <Header />
+        <div class="frontheader">
+            <nav>
+                <ul>
+                    <li><a href="/blog">Blog:</a>: <a href="/blog/gatsby">Hello Gatsby</a>, <a href="/blog/enigma">Das ist Enigma</a>, <a href="/blog/webdev">Webdev</a></li>
+                    <li><a href="/festung-breslau">Festung Breslau 1945 täglich</a><br />blog wojenny - ostatnie 120 dni wojny w Europie</li>
+                    <li><a href="https://github.com/tdudkowski/t4">Akcja T4</a><br />Materiały o Akcji T4: [github.com/tdudkowski/t4]</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="frontmain">
+            <div class="facebook">
+                <h3>Facebook</h3>
+                <div class="fb-page" data-href="https://www.facebook.com/dygresje.info/" data-tabs="timeline" data-width="320" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/dygresje.info/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dygresje.info/">Facebook - dygresje.info</a></blockquote></div>
+            </div>
+            <div class="content">
+                <div class="turystyka">
+                    <header>
+                        <a href="/turystyka"><h3>[1] / Turystyka</h3>
+                        <p>przejdź do /Turystyka</p></a>
+                    </header>
+
+                    <h4>Licencje</h4>
+
+                    <ul>
+                        <li>przewodnik miejski wrocławski</li>
+                        <li>pilot wycieczek</li>
+                        <li>przewodniki górski sudecki</li>
+                        <li>First Certificate in English (FCE)</li>
+                    </ul>
+                    
+                    <h4>Usługi</h4>
+
+                    <ul>
+                        <li>Pilotaż: Polska, Nadrenia, Brandenburgia, Saksonia i Czechy.</li>
+                        <li>Oprowadzanie: Dolny Śląsk, Drezno, Miśnia, Berlin, Poczdam i Praga.</li>
+                        <li>Należę do Stowarzyszenia TUiTAM - <a href="https://www.facebook.com/stowarzyszenieTUiTAM">facebook</a></li>
+                    </ul>                   
+                    
+                    <h4>Artykuły</h4>
+
+                    <ul>
+                        <li><a href="/turystyka/brandenburgia">Brandenburgia i Berlin</a></li>
+                        <li><a href="/turystyka/saksonia">Saksonia i Drezno</a></li>
+                        <li><a href="/turystyka/dolny_slask">Dolny Śląsk</a></li>
+                        <li>Czechy i Praga ("niezwłocznie")</li>
+                    </ul>                   
+                    
+                </div>
+                <div class="it">
+                    <header>
+                        <a href="/it"><h3>[2] / IT</h3>
+                        <p>przejdź do /IT</p></a>
+                    </header>
+                    <p>Social media: <a href="https://tdudkowski.github.io/">Github</a> | <a href="https://codepen.io/tdudkowski">Codepen</a></p>
+                    <p>Po kilku latach przerwy wróciłem do frontendu. Oto część mojej dawnej strony: witryna o XHTML1/CSS i kilka dłuższych tekstów:</p>
+                    <h4>2005</h4>
+
+                    <ul>
+                        <li><a href="https://tdudkowski.usermd.net/redesign/">XHTML/CSS redesign? [2005]</a></li>
+                        <li><a href="/it/kryptologia">Kryptologia praktycznie</a></li>
+                        <li><a href="/it/historia_it">Historia kryptologii, komputerów i internetu</a></li>
+                        <li><a href="/it/internet">Internet, FTP, LAMP</a></li>
+                    </ul>
+                    <h4>Teraz napisane</h4>
+
+                    <ul>
+                        <li><a href="/it/js">JavaScript:</a> Node.js, React, Express.js, Next.js, MongoDB, GatsbyJS, git i Github, Markdown, Odnośniki JS</li>
+                        <li><a href="/it/css">CSS:</a> w tej chwili głównie Flexbox</li>
+                        <li><a href="/it/cms">CMS:</a> Drupal, WordPress, Mediawiki</li>
+                        <li><a href="/it/internet/internet-links/">Odnośniki</a></li>
+                    </ul>
+                 </div>
+                <div class="inne">
+                    <header>
+                        <a href="/lang"><h3>[3] / Lang</h3>
+                        <p>przejdź do /Lang</p></a>
+                    </header>
+                    
+<p>Z założenia miało tu być wszystko niepasujące ani do /turystyka, ani do /IT. Rezultat jest taki, że można to podzielić na dwie części:</p>
+
+<h4>Niemiecki & francuski</h4>
+
+<ul>
+    <li><a href="/lang/deutsch">Deutsch</a>
+        <ul>
+    <li><a href="/lang/deutsch/deutsche-sprache">Język niemiecki - odnośniki</a></li>
+    <li><a href="/lang/deutsch/deutsche-internet">Niemieckie media - odnośniki</a></li>
+    <li><a href="/lang/deutsch/deutsche-kino">Niemcy filmowo opowiedziana kinem historia Niemiec i filmy w Niemczech kultowe</a></li>
+    <li><a href="/lang/deutsch/deutsche-musik">Muzyka niemiecka przegląd bardzo subiektywny</a></li>
+        </ul>
+    </li>
+</ul>
+
+<ul><li><a href="/lang/francais">Français</a>
+    <ul>
+    <li><a href="/lang/francais/francais">Język francuski - odnośniki</a></li>
+    <li><a href="/lang/francais/francais-internet">Media francuskie - odnośniki</a></li>
+    <li><a href="/lang/francais/expressions-francaises">Lingua franca czyli elementy francuskiego, które każdy zna</a></li>
+</ul>
+</li>
+</ul>
+
+<h4>Resztę</h4>
+
+<ul>
+    <li><a href="/turystyka/dolny_slask/wroclawscy-argonauci">"Wrocławscy Argonauci"</a></li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+        <Footer />
+</BaseLayout>

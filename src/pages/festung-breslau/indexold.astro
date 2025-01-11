@@ -1,0 +1,21 @@
+---
+import FBLayout from "../../layouts/FBLayout.astro";
+import { getCollection } from 'astro:content';
+
+const allPostsBlog = await getCollection('festung_breslau_blog');
+const { headings } = Astro.props;
+const { frontmatter } = Astro.props;
+const pageTitle = frontmatter ? frontmatter.title : "Blog Post List";
+---
+
+<FBLayout title={pageTitle}>
+<p>Strona Główna Festung Breslau</p>
+
+<ul>
+    <li><a href="/festung-breslau/blog">Blog</a></li>
+    <li><a href="/festung-breslau/article">Artykuły</a></li>
+    <li><a href="/festung-breslau/tags">Tagi</a></li>
+    <li><a href="/festung-breslau/posts">Lista wpisów</a></li>
+</ul>
+
+</FBLayout>

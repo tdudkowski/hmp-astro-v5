@@ -1,0 +1,17 @@
+---
+import MDBlogLayout from '../../../layouts/MDBlogLayout.astro';
+const matchedContentBlog = await import.meta.glob('../../../content/blog/*.mdx', { eager: true });
+const allPostsBlog = Object.values(matchedContentBlog);
+
+const tags = [...new Set(allPostsBlog.map((post) => post.frontmatter.tags.split(',').map(s => s.trim())).flat())];
+const pageTitle = "Blog Tag Index";
+const title = "Blog Tag Index";
+---
+<MDBlogLayout title={title}>
+  <h2>Lista tagów</h2>
+  <ul>
+    {tags.map((tag) => (
+      <li><a href={`/blog/tags/${tag}`}>{tag}</a></li>
+    ))}
+  </ul>
+</MDBlogLayout>

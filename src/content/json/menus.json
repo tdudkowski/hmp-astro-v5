@@ -1,0 +1,161 @@
+{"turystyka" : [
+{"title": "Brandenburgia", "url": "/turystyka/brandenburgia"},
+{"title": "Saksonia", "url": "/turystyka/saksonia"},
+{"title": "Dolny Śląsk", "url": "/turystyka/dolny_slask"}
+],
+"brandenburgia": [
+    {"title": "Historia Brandenburgii", "url": "/turystyka/brandenburgia/historia-brandenburgii"},
+    {"title": "Historia Berlina", "url": "/turystyka/brandenburgia/historia-berlina"},
+    {"title": "Hohenzollernowie", "url": "/turystyka/brandenburgia/hohenzollernowie"},
+    {"title": "Berlin - obiekty", "url": "/turystyka/brandenburgia/berlin-obiekty"},
+    {"title": "Brama Bradenburska", "url": "/turystyka/brandenburgia/brama-brandenburska"},
+    {"title": "Reichstag", "url": "/turystyka/brandenburgia/reichstag"},
+    {"title": "Wieża Telewizyjna", "url": "/turystyka/brandenburgia/wieza-telewizyjna"},
+    {"title": "Kalendarium", "url": "/turystyka/brandenburgia/kalendarium"},
+    {"title": "Książki i odnośniki", "url": "/turystyka/brandenburgia/materialy"}
+],
+"saksonia": [
+    {"title": "Historia Saksonii", "url": "/turystyka/saksonia/historia-saksonii"},
+    {"title": "Historia Drezna", "url": "/turystyka/saksonia/historia-drezna"},
+    {"title": "Drezno - obiekty", "url": "/turystyka/saksonia/drezno-obiekty"},
+    {"title": "Zwinger", "url": "/turystyka/saksonia/zwinger"},
+    {"title": "Frauenkirche", "url": "/turystyka/saksonia/frauenkirche"},
+    {"title": "Droga Czerwonej Flagi", "url": "/turystyka/saksonia/droga-czerwonej-flagi"},
+    {"title": "Co zobaczyć w Saksonii", "url": "/turystyka/saksonia/co-zobaczyc"},
+    {"title": "Kalendarium Saksonii", "url": "/turystyka/saksonia/kalendarium"},
+    {"title": "Książki i odnośniki", "url": "/turystyka/saksonia/materialy"},
+    {"title": "Sztuka", "url": "/turystyka/saksonia/sztuka"}
+],
+"dolny_slask": [
+    {"title": "Dolny Śląsk bibliografia", "url": "/turystyka/dolny_slask/dolny-slask-bibliografia"},
+    {"title": "Dolny Śląsk odnośniki", "url": "/turystyka/dolny_slask/dolny-slask-odnosniki"},
+    {"title": "Marek Hłasko", "url": "/turystyka/dolny_slask/hlasko"},
+    {"title": "Henryk Worcell", "url": "/turystyka/dolny_slask/worcell"},
+    {"title": "Wielki Cmentarz", "url": "/turystyka/dolny_slask/wielki-cmentarz"},
+    {"title": "Wrocławscy Argonauci", "url": "/turystyka/dolny_slask/wroclawscy-argonauci"}
+],
+"lang": [
+{"title": "Deutsch", "url": "/lang/deutsch"},
+{"title": "Francais", "url": "/lang/francais"}
+],
+"deutsch": [
+{"title": "Deutsche Sprache - Links", "url": "/lang/deutsch/deutsche-sprache"},
+{"title": "Deutsche Internet", "url": "/lang/deutsch/deutsche-internet"},
+{"title": "Deutsche Kino", "url": "/lang/deutsch/deutsche-kino"},
+{"title": "Deutsche Musik", "url": "/lang/deutsch/deutsche-musik"}
+],
+"francais": [
+{"title": "Français", "url": "/lang/francais/francais"},
+{"title": "Elementy francuskiego", "url": "/lang/francais/expressions-francaises"},
+{"title": "Media francuskie", "url": "/lang/francais/francais-internet"}
+],
+"it": [
+{"title": "Kryptologia", "url": "/it/kryptologia"},
+{"title": "JS", "url": "/it/js"},
+{"title": "CSS", "url": "/it/css"},
+{"title": "CMS", "url": "/it/cms"},
+{"title": "Historia IT", "url": "/it/historia_it"},
+{"title": "Internet", "url": "/it/internet"}
+],
+"cms": [
+{"title": "Drupal", "url": "/it/cms/drupal"},
+{"title": "Mediawiki", "url": "/it/cms/mediawiki"},
+{"title": "Wordpress", "url": "/it/cms/wordpress"}
+],
+"css": [
+    {"title": "CSS Flex - zasady", "url": "/it/css/flex-zasady"},
+    {"title": "CSS Flex - przykłady", "url": "/it/css/flex-przyklady"},
+    {"title": "CSS Flex - odnośniki", "url": "/it/css/flex-odnosniki"},
+    {"title": "CSS Grid - odnośniki", "url": "/it/css/grid-odnosniki"},
+    {"title": "CSS odnośniki", "url": "/it/css/css-odnosniki"},
+    {"title": "HTML odnośniki", "url": "/it/css/html-odnosniki"},
+    {"title": "Web Accessibility - odnośniki", "url": "/it/css/wa-odnosniki"}
+],
+"historia_it": [
+    {"title": "Historia maszyn liczących", "url": "/it/historia_it/maszynyliczace"},
+    {"title": "Historia kryptologii", "url": "/it/historia_it/kryptologia"},
+    {"title": "Historia komputerów", "url": "/it/historia_it/komputery"},
+    {"title": "Historia Internetu", "url": "/it/historia_it/internet"},
+    {"title": "Aneks", "url": "/it/historia_it/aneks"}
+],
+"internet": [
+    {"title": "Sieć", "url": "/it/internet/net"},
+    {"title": "Internet", "url": "/it/internet/internet"},
+    {"title": "Warstwy Internetu", "url": "/it/internet/warstwy"},
+    {"title": "Protokoły", "url": "/it/internet/protokoly"},
+    {"title": "DNS", "url": "/it/internet/dns"},
+    {"title": "Adresowanie", "url": "/it/internet/adresowanie"},
+    {"title": "Dodatki", "url": "/it/internet/dodatki"},
+    {"title": "FTP", "url": "/it/internet/ftp"},
+    {"title": "LAMP", "url": "/it/internet/lamp"},
+    {"title": "Odnośniki", "url": "/it/internet/odnosniki"}
+],
+"js": [
+    {"title": "JS odnośniki", "url": "/it/js/js-links"},
+    {"title": "JS odnośniki zagadnienia", "url": "/it/js/js-links-zagadnienia"},
+    {"title": "Node JS", "url": "/it/js/nodejs"},
+    {"title": "MongoDB", "url": "/it/js/mongodb"},
+    {"title": "Express JS", "url": "/it/js/express"},
+    {"title": "React", "url": "/it/js/react"},
+    {"title": "React hooks", "url": "/it/js/react-hooks"},
+    {"title": "React odnośniki", "url": "/it/js/react-links"},
+    {"title": "Next JS", "url": "/it/js/nextjs"},
+    {"title": "Gatsby JS", "url": "/it/js/gatsby"},
+    {"title": "Git", "url": "/it/js/git"},
+    {"title": "Markdown", "url": "/it/js/markdown"}
+],
+"kryptologia": [
+    {"title": "Wstęp", "url": "/it/kryptologia/wstep"},
+    {"title": "Klucz", "url": "/it/kryptologia/klucz"},
+    {"title": "Kryptologia klasyczna", "url": "/it/kryptologia/kryptologia-klasyczna"},
+    {"title": "Kryptologia symetryczna", "url": "/it/kryptologia/kryptologia-symetryczna"},
+    {"title": "Kryptologia asymetryczna", "url": "/it/kryptologia/kryptologia-asymetryczna"},
+    {"title": "Kryptologia jednostronna", "url": "/it/kryptologia/kryptologia-jednostronna"},
+    {"title": "PGP / GPG", "url": "/it/kryptologia/pgpgpg"},
+    {"title": "Steganografia", "url": "/it/kryptologia/steganografia"},
+    {"title": "Kryptoanaliza", "url": "/it/kryptologia/kryptoanaliza"},
+    {"title": "Słownik", "url": "/it/kryptologia/slownik"},
+    {"title": "Biografie", "url": "/it/kryptologia/biografie"},
+    {"title": "Materiały", "url": "/it/kryptologia/materialy"}
+],
+"blog": [
+    {"title": "Das ist Enigma", "url": "/blog/enigma"},
+    {"title": "Hello Gatsby", "url": "/blog/gatsby"},
+    {"title": "Webdev", "url": "/blog/webdev"}
+],
+"enigma": [
+    {"title": "Wstęp", "url": "/blog/enigma-wstep"},
+    {"title": "Kryptologia Wielkiej Wojny", "url": "/blog/enigma-wwi"},
+    {"title": "Kryptologia międzywojnia", "url": "/blog/enigma-miedzywojnie"},
+    {"title": "Kryptologia 1939 - 1945", "url": "/blog/enigma-wwii"},
+    {"title": "Historia Enigmy", "url": "/blog/enigma-historia"},
+    {"title": "Kryptologia i radiowywiad II RP", "url": "/blog/enigma-iirp"},
+    {"title": "Enigma - opis", "url": "/blog/enigma-opis"},
+    {"title": "Rekonstrukcja JS cz. 1", "url": "/blog/enigma-js-1"},
+    {"title": "Rekonstrukcja JS cz. 2", "url": "/blog/enigma-js-2"},
+    {"title": "Zimna Wojna", "url": "/blog/enigma-zimnawojna"},
+    {"title": "Współczesność", "url": "/blog/enigma-po1990"},
+    {"title": "Materiały", "url": "/blog/enigma-materialy"}
+],
+"gatsby": [
+    {"title": "Instalacja", "url": "/blog/gatsby-instalacja"},
+    {"title": "Komponenty", "url": "/blog/gatsby-komponenty"},
+    {"title": "CSS", "url": "/blog/gatsby-css"},
+    {"title": "GraphQL & obrazki ", "url": "/blog/gatsby-graphql"},
+    {"title": "Pluginy", "url": "/blog/gatsby-pluginy"},
+    {"title": "Dawaj, dawaj, deploy ", "url": "/blog/gatsby-deploy"},
+    {"title": "Blog MDX cz. 1 ", "url": "/blog/gatsby-blog-1"},
+    {"title": "Menu RWD z Hamburgerem", "url": "/blog/gatsby-menu"}
+],
+"webdev": [
+    {"title": "Frontend - menu RWD z Hamburgerem", "url": "/blog/webdev-menu"}
+],
+"impressum": [
+{"title": "O mnie", "url": "/o_mnie"},
+{"title": "O stronie", "url": "/o_stronie"},
+{"title": "Mapa strony", "url": "/sitemap"},
+{"title": "Hosting", "url": "/hosting"},
+{"title": "Kontakt", "url": "/kontakt"}
+],
+"none": []
+}

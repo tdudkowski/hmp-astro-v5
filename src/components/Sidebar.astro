@@ -1,0 +1,24 @@
+---
+import SidebarMenu from './SidebarMenu.astro'
+import jsondata from '../content/json/menus.json'
+export interface Props {
+     title: string;
+    headings: {
+    slug: string;
+    text: string;
+    depth: number;
+  }[]
+}
+
+const { title, headings, section, subsection } = Astro.props;
+---
+
+<aside class="aside-section-menu">
+    <h3><span class="menu-title">{section}</span></h3>
+    <ul>
+        {section ? jsondata[`${section}`].map((link) => <li><a href={link.url}>{link.title}</a></li>) : null}
+    </ul>
+    
+{`${subsection}` !== 'none' ? <SidebarMenu headings={headings} section={section} subsection={subsection} /> : null}
+ 
+</aside>

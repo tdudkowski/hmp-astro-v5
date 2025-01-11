@@ -1,0 +1,10 @@
+---
+const { frontmatter } = Astro.props
+---
+
+<div class="div-tags">
+<h4>Tagi:</h4>
+<ul>
+    {(frontmatter && frontmatter.title) ? frontmatter.tags.split(',').map(s => s.trim()).map((tag) => (<li><a href={`/festung-breslau/tags/${tag}`}>{tag}</a></li>)): null}
+</ul>
+</div>

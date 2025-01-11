@@ -1,0 +1,10 @@
+.astro
+.idea
+dist
+node_modules
+log.md
+
+# other
+.cache
+.DS_Store
+*.log

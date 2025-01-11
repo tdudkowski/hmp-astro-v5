@@ -1,0 +1,8 @@
+---
+const { comment, txt, url } = Astro.props;
+const content = typeof comment == 'string' ? comment : "Więcej na ten temat w osobnym artykule";
+---
+
+<div class="seealso">
+{content}: <a href={url}>{txt}</a>
+</div>
