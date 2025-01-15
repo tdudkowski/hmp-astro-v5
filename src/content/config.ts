@@ -124,6 +124,7 @@ const festung_breslau_articleCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     tags: z.string(),
+    date: z.date(),
    }),
 });
 

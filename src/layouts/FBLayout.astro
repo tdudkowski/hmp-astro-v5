@@ -6,8 +6,7 @@ import '../styles/fb.css';
 
 const { headings } = Astro.props;
 const { frontmatter } = Astro.props;
-// const pageTitle = frontmatter ? frontmatter.title : "Blog Post List";
-const pageTitle = "Festung Breslau 1945";
+const pageTitle = frontmatter ? frontmatter.title : "Festung Breslau 1945";
 let dateBlog = false;
 if (pageTitle != "Festung Breslau 1945") {
 dateBlog = frontmatter.date1945 ? frontmatter.title : false;
@@ -31,9 +30,11 @@ dateBlog = frontmatter.date1945 ? frontmatter.title : false;
             <FBSidebar headings={headings} />
             <article>
    
-                {(frontmatter && frontmatter.title) ? <h2><div>{frontmatter.date1945}</div><br />{pageTitle}</h2> : null }
+                {(frontmatter && frontmatter.title) ? <h2>{frontmatter.date1945 ? <div>{frontmatter.date1945}</div><br /> : null}{pageTitle}</h2> : null }
                 {(frontmatter && frontmatter.title) ? <FBTagsList frontmatter={frontmatter} /> : null }
+                
                   <section>
+                    {(frontmatter && frontmatter.date) ? <span class="update">ostatnia aktualizacja: {frontmatter.date.slice(0,10)}</span> : null }
             <slot />
                   </section>
                 {(frontmatter && frontmatter.title) ? <FBTagsList frontmatter={frontmatter} /> : null }

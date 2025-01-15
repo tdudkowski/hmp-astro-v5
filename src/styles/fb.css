@@ -143,6 +143,8 @@ blockquote::before {
 ul.bibliography {list-style-type: circle;}
 ul.bibliography span {display: inline-block; margin-left: .5rem; color: rgba(251, 251, 201, .5)}
 
+.update {margin: 1rem; padding: .1rem .5rem; border: 1px solid #ff2; border-radius: 10px; background-color: #998; color: #221;}
+
 @media (min-width: 660px) {
     header h1 a {background-color: rgba(250, 250, 250, .5); color: rgba(51, 51, 34, .7); text-decoration: none;}
     header h1 a:hover {text-decoration: underline;}
