@@ -6,15 +6,15 @@ import '../styles/fb.css';
 
 const { headings } = Astro.props;
 const { frontmatter } = Astro.props;
-const pageTitle = frontmatter ? frontmatter.title : "Blog Post List";
-
+// const pageTitle = frontmatter ? frontmatter.title : "Blog Post List";
+const pageTitle = "Festung Breslau 1945";
 let dateBlog = false;
-if (pageTitle != "Blog Post List") {
+if (pageTitle != "Festung Breslau 1945") {
 dateBlog = frontmatter.date1945 ? frontmatter.title : false;
 }
 ---
 
-<BaseLayout>
+<BaseLayout title={pageTitle}>
             <header>
                 <ul>
                     <li><a href="/">dygresje.info strona główna</a></li>
@@ -41,7 +41,7 @@ dateBlog = frontmatter.date1945 ? frontmatter.title : false;
 
             </main>
             <footer>
-            <p>Festung Breslau 1945 täglich @ die <a href="https://astro.build/">Astro</a> Ausgabe @2024;</p>
+            <p>Festung Breslau 1945 täglich @ die <a href="https://astro.build/">Astro</a> Ausgabe @2025;</p>
             <p><a href="/">dygresje.info</a> | <a href="/festung-breslau">Festung Breslau 1945 täglich</a></p>
             </footer>
 </BaseLayout>

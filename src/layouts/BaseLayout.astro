@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import '../styles/prism.css';
-const pageTitle = "testo";
+const pageTitle = "dygresje.info | Tadeusz Dudkowski homepage";
 ---
 
 <html lang="pl" class="dark">
@@ -19,7 +19,7 @@ const pageTitle = "testo";
 	<body class="data-line">
     
         <div class="wrapper">
-<slot />
+<slot title={pageTitle} />
         </div>
         <script src="../scripts/prism.js"></script>
    </body>

@@ -45,9 +45,9 @@
 {"title": "Deutsche Musik", "url": "/lang/deutsch/deutsche-musik"}
 ],
 "francais": [
-{"title": "Français", "url": "/lang/francais/francais"},
-{"title": "Elementy francuskiego", "url": "/lang/francais/expressions-francaises"},
-{"title": "Media francuskie", "url": "/lang/francais/francais-internet"}
+    {"title": "Français", "url": "/lang/francais/francais"},
+    {"title": "Media francuskie", "url": "/lang/francais/francais-internet"},
+    {"title": "Elementy francuskiego", "url": "/lang/francais/expressions-francaises"}
 ],
 "it": [
 {"title": "Kryptologia", "url": "/it/kryptologia"},
