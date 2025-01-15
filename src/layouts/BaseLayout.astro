@@ -15,6 +15,50 @@ const pageTitle = "dygresje.info | Tadeusz Dudkowski homepage";
                 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
                 <link rel="sitemap" href="/sitemap-index.xml" />
            
+
+                <script>
+                    declare global {
+                        interface Window {
+                            MyLib: any;
+                            dataLayer: any[];
+                            gtag: (...args: any[]) => void;
+                        }
+                    }
+                    import { onCLS, onINP, onLCP, onTTFB, onFCP } from "web-vitals";
+                    document.addEventListener("astro:page-load", () => {
+                        window.dataLayer = window.dataLayer || [];
+                        window.gtag = function gtag(...args: any[]) {
+                            window.dataLayer.push(arguments);
+                        };
+                        window.gtag("js", new Date());
+                
+                        window.gtag("config", "G-2HGNS7Z9HD");
+                
+                        function sendToGoogleAnalytics({name, delta,value, id}: 
+                    {name: string; delta: number;value: number; id: string;}) {
+                            window.gtag("event", name, {
+                                value: delta, 
+                                metric_id: id, 
+                                metric_value: value,
+                                metric_delta: delta,
+                            });
+                        }
+                
+                        onCLS(sendToGoogleAnalytics);
+                        onINP(sendToGoogleAnalytics);
+                        onLCP(sendToGoogleAnalytics);
+                        onTTFB(sendToGoogleAnalytics);
+                        onFCP(sendToGoogleAnalytics);
+                    });
+
+                    window.gtag("consent", "default", {
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          analytics_storage: "denied",
+        });
+		window.gtag("config", "G-2HGNS7Z9HD");
+                </script>
 	</head>
 	<body class="data-line">
     

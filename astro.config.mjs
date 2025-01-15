@@ -5,7 +5,7 @@ import sectionize from '@hbsnow/rehype-sectionize';
 
 export default defineConfig({
   experimental: {svg: true},
-  site: 'https://localhost:4321/',
+  site: 'https://dygresje.info/',
   integrations: [mdx(), sitemap()],
   markdown: {
     syntaxHighlight: 'prism',
