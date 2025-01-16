@@ -4,5 +4,5 @@ const allPostsBlog = await getCollection('blog');
 ---
 
 <ul class="blogpostslist">
-    {allPostsBlog.map((post) => <li><a href={`/blog/${post.slug}`}>{post.data.title}</a></li>)}
+    {allPostsBlog.map((post) => <li class={post.data.subsection}><a href={`/blog/${post.slug}`}>{post.data.title}</a></li>)}
 </ul>
