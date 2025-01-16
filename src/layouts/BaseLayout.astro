@@ -14,25 +14,16 @@ const pageTitle = "dygresje.info | Tadeusz Dudkowski homepage";
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
                 <link rel="sitemap" href="/sitemap-0.xml" />
-                <script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-2HGNS7Z9HD"></script>
 
-                <script>
-                      declare global {
-                        interface Window {
-                          dataLayer: any[];
-                          gtag: (...args: any[]) => void;
-                        }
-                      }
-                      document.addEventListener("astro:page-load", () => {
-                        window.dataLayer = window.dataLayer || [];
-                        window.gtag = function gtag(...args: any[]) {
-                          window.dataLayer.push(arguments);
-                        };
-                        window.gtag("js", new Date());
-                        window.gtag("config", "G-2HGNS7Z9HD");
-                      });
+                <!-- Google tag (gtag.js) -->
+                <script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-2HGNS7Z9HD"></script>
+                <script is:inline>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {dataLayer.push(arguments);}
+                gtag("js", new Date());
+                gtag("config", "G-2HGNS7Z9HD");
                 </script>
-              
+                           
 	</head>
 	<body class="data-line">
     

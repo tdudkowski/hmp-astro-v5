@@ -142,7 +142,7 @@ blockquote::before {
 
 ul.bibliography {list-style-type: circle;}
 ul.bibliography span:nth-of-type(1) {display: inline-block; margin-left: -2.5rem; color: rgba(251, 251, 201, .5); background-color: #330; color: #772;}
-ul.bibliography span:nth-of-type(2) {display: inline-block; margin-left: .5rem; color: rgba(251, 251, 201, .5)}
+ul.bibliography span:nth-of-type(2) {display: inline-block; margin-left: 0; color: rgba(251, 251, 201, .5)}
 
 .update {margin: 1rem; padding: .1rem .5rem; border: 1px solid #ff2; border-radius: 10px; background-color: #998; color: #221;}
 
