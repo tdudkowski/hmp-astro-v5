@@ -3,6 +3,6 @@ import bibliography from '../content/json/bibliography.json';
 ---
 
 <ul class="bibliography">
-    {bibliography.additional.map(({author, title, publisher, yearOfPublication, pages, ISBN, add})=>(<li>{author} <strong>"{title}"</strong>;<br />
+    {bibliography.additional.map(({author, title, publisher, yearOfPublication, pages, ISBN, add, originalEditionYear})=>(<li><span>{originalEditionYear}</span> {author} <strong>"{title}"</strong>;<br />
     <span>{publisher} {yearOfPublication}, stron {pages}{ISBN ? `, ISBN: ${ISBN}` : null};<br />{add}</span></li>))}
 </ul>
