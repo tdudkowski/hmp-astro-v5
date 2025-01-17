@@ -9,8 +9,6 @@ const { frontmatter } = Astro.props;
 const pageDate1945 = frontmatter && frontmatter.date1945 ? ` ${frontmatter.date1945.replace(/\ 1945/g,"")} - ` : " ";
 const pageTitle = frontmatter && frontmatter.title ? `Festung Breslau 1945:${pageDate1945}${frontmatter.title}` : "dygresje.info | Festung Breslau 1945";
 const pageImg = frontmatter && frontmatter.title ? frontmatter.img : null;
-let dateBlog = false;
-// if (frontmatter && frontmatter.date1945) {dateBlog = frontmatter.date1945 ? frontmatter.title : false;}
 ---
 
 <BaseLayout title={pageTitle} img={pageImg}>
