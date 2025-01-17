@@ -1,20 +1,12 @@
 ---
+import HeadMeta from '../components/HeadMeta.astro'
 import '../styles/global.css';
 import '../styles/prism.css';
-const pageTitle = "dygresje.info | Tadeusz Dudkowski homepage";
 ---
 
 <html lang="pl" class="dark">
-	<head>
-		<meta charset="utf-8" />
-		<title>{pageTitle}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link href="https://fonts.cdnfonts.com/css/hultog" rel="stylesheet">
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-                <link rel="sitemap" href="/sitemap-0.xml" />
-
+	<head>		
+        <HeadMeta frontmatter />
                 <!-- Google tag (gtag.js) -->
                 <script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-2HGNS7Z9HD"></script>
                 <script is:inline>
@@ -22,13 +14,12 @@ const pageTitle = "dygresje.info | Tadeusz Dudkowski homepage";
                 function gtag() {dataLayer.push(arguments);}
                 gtag("js", new Date());
                 gtag("config", "G-2HGNS7Z9HD");
-                </script>
-                           
+                </script>                           
 	</head>
 	<body class="data-line">
     
         <div class="wrapper">
-<slot title={pageTitle} />
+            <slot />
         </div>
         <script src="../scripts/prism.js"></script>
    </body>

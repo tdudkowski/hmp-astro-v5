@@ -1,0 +1,15 @@
+---
+const { frontmatter } = Astro.props
+
+---
+
+<meta charset="utf-8" />
+<title>{ (frontmatter && frontmatter.title)  ? frontmatter.title : "dygresje.info | Tadeusz Dudkowski homepage" }</title>
+<meta name="description" content="Tadeusz Dudkowski homepage | dygresje.info : IT, JS, Berlin, Drezno">
+<link rel="icon" type="image/x-icon" href="/fbimages/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.cdnfonts.com/css/hultog" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link rel="sitemap" href="/sitemap-0.xml" />

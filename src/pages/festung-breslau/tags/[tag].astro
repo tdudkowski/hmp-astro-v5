@@ -35,7 +35,7 @@ const filteredArticlePosts = articleposts.filter((post) => post.data.tags?.inclu
   
   <h3>Posty z tagiem: <span class="tag">{tag}</span></h3>
   <ul>
-    {filteredBlogPosts.map((post) => <li><a href={`/festung-breslau/blog/${post.slug}`}>{post.data.title}</a></li>)}
+    {filteredBlogPosts.map((post) => <li><a href={`/festung-breslau/blog/${post.slug}`}>{post.data.date1945.replace(/\ 1945/g,"")} - "{post.data.title}"</a></li>)}
   </ul>
   <hr />
   <h3>Artykuły z tagiem: <span class="tag">{tag}</span></h3>
