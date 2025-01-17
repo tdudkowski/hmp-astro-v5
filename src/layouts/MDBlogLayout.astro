@@ -10,7 +10,7 @@ const { headings } = Astro.props;
 const { frontmatter } = Astro.props;
 const pageSection = frontmatter ? frontmatter.section : "blog";
 const pageSubsection = frontmatter ? frontmatter.subsection : "none";
-const pageTitle = frontmatter.title ? frontmatter.title : "dygresje.info | Tadeusz Dudkowski homepage";
+const pageTitle = frontmatter && frontmatter.title ? frontmatter.title : "dygresje.info | Tadeusz Dudkowski homepage";
 ---
 
 <BaseLayout title={pageTitle}>
