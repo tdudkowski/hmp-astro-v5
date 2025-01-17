@@ -6,13 +6,11 @@ import '../styles/fb.css';
 
 const { headings } = Astro.props;
 const { frontmatter } = Astro.props;
-const pageTitle = frontmatter && frontmatter.title ? `Festung Breslau 1945: ${frontmatter.date1945.replace(/\ 1945/g,"")} - ${frontmatter.title}` : "dygresje.info | Festung Breslau 1945";
+const pageDate1945 = frontmatter && frontmatter.date1945 ? ` ${frontmatter.date1945.replace(/\ 1945/g,"")} - ` : " ";
+const pageTitle = frontmatter && frontmatter.title ? `Festung Breslau 1945:${pageDate1945}${frontmatter.title}` : "dygresje.info | Festung Breslau 1945";
 const pageImg = frontmatter && frontmatter.title ? frontmatter.img : null;
-const pageDate1945 = frontmatter && frontmatter.title ? frontmatter.date1945 : null;
 let dateBlog = false;
-if (pageTitle != "Festung Breslau 1945") {
-dateBlog = frontmatter.date1945 ? frontmatter.title : false;
-}
+// if (frontmatter && frontmatter.date1945) {dateBlog = frontmatter.date1945 ? frontmatter.title : false;}
 ---
 
 <BaseLayout title={pageTitle} img={pageImg}>
