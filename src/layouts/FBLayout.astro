@@ -6,14 +6,15 @@ import '../styles/fb.css';
 
 const { headings } = Astro.props;
 const { frontmatter } = Astro.props;
-const pageTitle = frontmatter ? frontmatter.title : "Festung Breslau 1945";
+const pageTitle = frontmatter && frontmatter.title ? `Festung Breslau 1945: ${frontmatter.title}` : "Festung Breslau 1945";
+const pageImg = frontmatter && frontmatter.title ? frontmatter.img : null;
 let dateBlog = false;
 if (pageTitle != "Festung Breslau 1945") {
 dateBlog = frontmatter.date1945 ? frontmatter.title : false;
 }
 ---
 
-<BaseLayout title={pageTitle} frontmatter>
+<BaseLayout title={pageTitle} img={pageImg}>
             <header>
                 <ul>
                     <li><a href="/">dygresje.info strona główna</a></li>

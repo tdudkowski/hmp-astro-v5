@@ -2,11 +2,16 @@
 import HeadMeta from '../components/HeadMeta.astro'
 import '../styles/global.css';
 import '../styles/prism.css';
+export interface Props {
+  title: string;
+  img?: string;
+};
+const {title, img} = Astro.props;
 ---
 
 <html lang="pl" class="dark">
 	<head>		
-        <HeadMeta frontmatter />
+        <HeadMeta {title} {img} />
                 <!-- Google tag (gtag.js) -->
                 <script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-2HGNS7Z9HD"></script>
                 <script is:inline>
@@ -30,7 +35,7 @@ import '../styles/prism.css';
         
         function addIntersectionObserver() {
             const observer = new IntersectionObserver((sections) => {
-                console.log('sections', sections);
+                // console.log('sections', sections);
                 sections.forEach((section) => {
                     const heading = section.target.querySelector('h2, h3, h4, h5');
                     if (!heading) return;
