@@ -1,6 +1,7 @@
 .astro
 .idea
 dist
+archiv
 node_modules
 log.md
 

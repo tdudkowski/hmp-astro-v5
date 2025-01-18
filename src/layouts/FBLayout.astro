@@ -28,7 +28,7 @@ const pageImg = frontmatter && frontmatter.title ? frontmatter.img : null;
             <FBSidebar headings={headings} />
             <article>
    
-                {(frontmatter && frontmatter.title) ? <h2>{frontmatter.date1945 ? <div>{frontmatter.date1945}</div><br /> : null}{pageTitle}</h2> : null }
+                {(frontmatter && frontmatter.title) ? <h2>{frontmatter.date1945 ? <div>{frontmatter.date1945}</div><br /> : null}{frontmatter.title}</h2> : null }
                 {(frontmatter && frontmatter.title) ? <FBTagsList frontmatter={frontmatter} /> : null }
                 
                   <section>
