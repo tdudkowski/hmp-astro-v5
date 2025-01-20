@@ -115,7 +115,7 @@ article h4 {padding-left: 1rem;}
 .div-tags li {margin: .4rem;}
 .div-tags a {text-decoration: underline; display: inline-block;}
 
-blockquote {color: rgb(255, 238, 204, .6); position: relative;}
+blockquote {color: rgb(255, 238, 194, .6); position: relative; margin-left: 2rem;}
 blockquote::before {
     position: absolute;
     content: "\"";
@@ -138,13 +138,15 @@ blockquote::before {
     /* white-space: pre;  */
     /* word-break: break-all; */
 }
-.fbblockquote p {display: block;}
+/* .fbblockquote p {display: block;} */
 
 ul.bibliography {list-style-type: circle;}
 ul.bibliography span:nth-of-type(1) {display: inline-block; margin-left: -2.5rem; color: rgba(251, 251, 201, .5); background-color: #330; color: #772;}
 ul.bibliography span:nth-of-type(2) {display: inline-block; margin-left: 0; color: rgba(251, 251, 201, .5)}
 
 .update {margin: 1rem; padding: .1rem .5rem; border: 1px solid #ff2; border-radius: 10px; background-color: #998; color: #221;}
+
+/* article p {font-size: 1.05rem} */
 
 @media (min-width: 660px) {
     header h1 a {background-color: rgba(250, 250, 250, .5); color: rgba(51, 51, 34, .7); text-decoration: none;}
