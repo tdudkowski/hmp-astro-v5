@@ -8,7 +8,10 @@ type Props = {
  
 export async function getStaticPaths() {
   const entries = await getCollection('festung_breslau_blog');
-  return entries.map((entry) => ({
+  const today = new Date().toISOString().slice(5,10);
+  const allPostsMonth = entries.filter((a) => a.slug.slice(0,2) <= today.slice(0,2))
+  const allPostsDay = allPostsMonth.filter((a) => a.slug.slice(3) <= today.slice(3))
+  return allPostsDay.map((entry) => ({
     params: { slug: entry.slug },
     props: { post: entry },
   }));
