@@ -31,7 +31,7 @@ const allPostsPastMonths = blogposts.filter((a) => a.slug.slice(0,2) < today.sli
 const allPostsMonth = blogposts.filter((a) => a.slug.slice(0,2) === today.slice(0,2))
 const allPostsDay = allPostsMonth.filter((a) => a.slug.slice(3) <= today.slice(3))
 
-const totalPosts = allPostsPastMonths.concat(allPostsMonth)
+const totalPosts = allPostsPastMonths.concat(allPostsDay)
 
 const filteredBlogPosts = totalPosts.filter((post) => post.data.tags?.includes(tag));
 const filteredArticlePosts = articleposts.filter((post) => post.data.tags?.includes(tag));
