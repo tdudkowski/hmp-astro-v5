@@ -11,7 +11,7 @@ const allPostsPastMonths = allPostsBlog.filter((a) => a.slug.slice(0,2) < today.
 const allPostsMonth = allPostsBlog.filter((a) => a.slug.slice(0,2) === today.slice(0,2))
 const allPostsDay = allPostsMonth.filter((a) => a.slug.slice(3) <= today.slice(3))
 
-const totalPosts = allPostsPastMonths.concat(allPostsDay)
+const totalPosts = allPostsPastMonths.concat(allPostsDay).sort((a, b) => (Number(a.slug.replace('-', ''))) - (Number(b.slug.replace('-', ''))))
 
 const { headings } = Astro.props;
 const { frontmatter } = Astro.props;
