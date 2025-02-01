@@ -8,10 +8,11 @@ const { headings } = Astro.props;
 const { frontmatter } = Astro.props;
 const pageDate1945 = frontmatter && frontmatter.date1945 ? ` ${frontmatter.date1945.replace(/\ 1945/g,"")} - ` : " ";
 const pageTitle = frontmatter && frontmatter.title ? `Festung Breslau 1945:${pageDate1945}${frontmatter.title}` : "dygresje.info | Festung Breslau 1945";
+const description = frontmatter && frontmatter.description1 ? frontmatter.description1 : null;
 const pageImg = frontmatter && frontmatter.title ? frontmatter.img : null;
 ---
 
-<BaseLayout title={pageTitle} img={pageImg}>
+<BaseLayout title={pageTitle} img={pageImg} description={description}>
             <header>
                 <ul>
                     <li><a href="/">dygresje.info strona główna</a></li>
