@@ -7,10 +7,15 @@ import Pagination from '../../components/FBBlogPagination.astro';
   const allPosts = Object.values(await import.meta.glob('../../content/festung_breslau_blog/*.mdx', { eager: true }));
   
   const today = new Date().toISOString().slice(5,10);
-  const allPostsMonth = allPosts.filter((a) => a.url.slice(33,35) <= today.slice(0,2))
+
+  const allPostsPastMonths = allPosts.filter((a) => a.url.slice(33,35) < today.slice(0,2))
+
+  const allPostsMonth = allPosts.filter((a) => a.url.slice(33,35) === today.slice(0,2))
   const allPostsDay = allPostsMonth.filter((a) => a.url.slice(36,38) <= today.slice(3))
 
-  const formattedPosts = allPostsDay.sort((a, b) => (a.url) - (b.url)).reverse();
+  const totalPosts = allPostsPastMonths.concat(allPostsDay)
+
+  const formattedPosts = totalPosts.sort((a, b) => (a.url) - (b.url)).reverse();
     return paginate(formattedPosts, {
     pageSize: 10,
   })

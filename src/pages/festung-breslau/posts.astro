@@ -5,8 +5,13 @@ import { getCollection } from 'astro:content';
 const allPostsBlog = await getCollection('festung_breslau_blog');
 
 const today = new Date().toISOString().slice(5,10);
-const allPostsMonth = allPostsBlog.filter((a) => a.slug.slice(0,2) <= today.slice(0,2))
+
+const allPostsPastMonths = allPostsBlog.filter((a) => a.slug.slice(0,2) < today.slice(0,2))
+
+const allPostsMonth = allPostsBlog.filter((a) => a.slug.slice(0,2) === today.slice(0,2))
 const allPostsDay = allPostsMonth.filter((a) => a.slug.slice(3) <= today.slice(3))
+
+const totalPosts = allPostsPastMonths.concat(allPostsDay)
 
 const { headings } = Astro.props;
 const { frontmatter } = Astro.props;
@@ -18,7 +23,7 @@ const pageTitle = frontmatter ? frontmatter.title : "Blog Post List";
 <h2>Lista wpisów</h2>
 
 <ul class="fbpostslist">
-    {allPostsDay.map((post) => <li><a href={`/festung-breslau/blog/${post.slug}`}><span>{post.data.date1945}</span><br /><span>{post.data.title}</span></a>
+    {totalPosts.map((post) => <li><a href={`/festung-breslau/blog/${post.slug}`}><span>{post.data.date1945}</span><br /><span>{post.data.title}</span></a>
     <p><strong>Tagi:</strong> {post.data.tags}</p></li>)}
 </ul>
 

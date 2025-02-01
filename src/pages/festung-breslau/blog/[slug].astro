@@ -9,9 +9,14 @@ type Props = {
 export async function getStaticPaths() {
   const entries = await getCollection('festung_breslau_blog');
   const today = new Date().toISOString().slice(5,10);
-  const allPostsMonth = entries.filter((a) => a.slug.slice(0,2) <= today.slice(0,2))
+  const allPostsPastMonths = entries.filter((a) => a.slug.slice(0,2) < today.slice(0,2))
+
+  const allPostsMonth = entries.filter((a) => a.slug.slice(0,2) === today.slice(0,2))
   const allPostsDay = allPostsMonth.filter((a) => a.slug.slice(3) <= today.slice(3))
-  return allPostsDay.map((entry) => ({
+
+  const totalPosts = allPostsPastMonths.concat(allPostsDay)
+  
+  return totalPosts.map((entry) => ({
     params: { slug: entry.slug },
     props: { post: entry },
   }));
@@ -19,7 +24,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
-
+console.log('hey')
 export const prerender = true;
 ---
 
