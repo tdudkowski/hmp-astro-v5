@@ -87,7 +87,7 @@ article h4 {padding-left: 1rem;}
     }
 .boximagewrapper p {margin: 0 0;}
 .boximagewrapper p:nth-of-type(1) {background-color:  rgba(20, 20, 20, .4); text-align: center;}
-.boximagewrapper p img {margin: 0 auto; object-fit: contain; height: 100%;}
+.boximagewrapper p img {margin: 0 auto; object-fit: contain; height: 100%; margin-bottom: -4px;}
 .boximagewrapper p:nth-of-type(2) {background-color: rgba(250, 250, 250, 0.1); padding: 1rem;}
 
 .date1945 {margin: -1rem; padding: .7rem; background-color: #ddd; color: #333; width: 13rem; font-family: 'Times New Roman', Times, serif; font-weight: 900; box-shadow: 0 0 2px 4px rgba(250,250,250,.3); display:inline-block; border: 3px solid #333; border-width: 3px 0; }
@@ -126,6 +126,8 @@ blockquote::before {
     width: 40px;
     font-family: 'UnifrakturMaguntia', cursive;
 }
+
+article blockquote p br {display: block; margin-top: .5rem; content: ""}
 
 .fbpostslist {list-style-type: circle;}
 .fbpostslist li {background-color: rgba(31, 31, 21, .4); margin: 1rem; border: 1px solid #330; border-width: 1px 0;}
