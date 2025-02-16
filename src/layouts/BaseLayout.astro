@@ -36,8 +36,7 @@ const {title, img} = Astro.props;
         
         function addIntersectionObserver() {
             const observer = new IntersectionObserver((sections) => {
-                // console.log('sections', sections);
-                sections.forEach((section) => {
+                    sections.forEach((section) => {
                     const heading = section.target.querySelector('h2, h3, h4, h5');
                     if (!heading) return;
                     const id = heading.getAttribute('id');

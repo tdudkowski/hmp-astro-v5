@@ -127,7 +127,7 @@ blockquote::before {
     font-family: 'UnifrakturMaguntia', cursive;
 }
 
-article blockquote p br {display: block; margin-top: .5rem; content: ""}
+article blockquote p br {display: block; margin: .5rem 0; content: ""}
 
 .fbpostslist {list-style-type: circle;}
 .fbpostslist li {background-color: rgba(31, 31, 21, .4); margin: 1rem; border: 1px solid #330; border-width: 1px 0;}
