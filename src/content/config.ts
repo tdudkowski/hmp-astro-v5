@@ -127,7 +127,13 @@ const festung_breslau_articleCollection = defineCollection({
     date: z.date(),
    }),
 });
-
+// MARIA LANGNER
+const maria_langner_chapterCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    comment: z.string(),
+   }),
+});
 // FESTUNG BRESLAU ARTICLE
 const jsonCollection = defineCollection({
   schema: z.object({
@@ -154,4 +160,5 @@ export const collections = {
   json: jsonCollection,
   festung_breslau_blog: festung_breslau_blogCollection,
   festung_breslau_article: festung_breslau_articleCollection,
+  maria_langner: maria_langner_chapterCollection,
 };
