@@ -3,9 +3,10 @@ import BaseLayout from "./BaseLayout.astro";
 import '../styles/langner.css'
 const { frontmatter } = Astro.props;
 const ogimage = '/fbimages/langner-header1.jpg'
+const pageTitle = 'Maria Langner "Ostatni bastion" | dygresje.info'
 ---
 
-<BaseLayout img={ogimage}>
+<BaseLayout img={ogimage} title={pageTitle}>
     <header><h1>Maria Langner "Ostatni bastion"</h1></header>
     <main>
         <aside>
