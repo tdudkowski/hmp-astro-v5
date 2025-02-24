@@ -115,7 +115,7 @@ const festung_breslau_blogCollection = defineCollection({
     title: z.string(),    
     date: z.date(),
     img: z.string(),
-    description1: z.string(),
+    description: z.string(),
     tags: z.string(),
    }),
 });
@@ -131,7 +131,7 @@ const festung_breslau_articleCollection = defineCollection({
 const maria_langner_chapterCollection = defineCollection({
   schema: z.object({
     title: z.string(),
-    comment: z.string(),
+    description: z.string(),
    }),
 });
 // FESTUNG BRESLAU ARTICLE

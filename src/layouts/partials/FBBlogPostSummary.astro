@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-const { title, url, page, img, date, date1945, description1, tags} = Astro.props;
+const { title, url, page, img, date, date1945, description, tags} = Astro.props;
 const link = url.slice(33, 38);
 const lastEdit = date.slice(0,10);
 ---
@@ -16,7 +16,7 @@ const lastEdit = date.slice(0,10);
       <p>Aktualizacja: {lastEdit}</p>
       <div class="description-image">
         <img src={img} alt={title} width="200">
-        <p>{description1}</p>
+        <p>{description}</p>
       </div>
       <p class="postsummarytags">Tagi: {tags}</p>
       <p class="postsummarylink">Cały wpis: <a href={`/festung-breslau/blog/${link}`}>"{title}"</a></p>
