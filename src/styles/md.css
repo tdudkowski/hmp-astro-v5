@@ -111,8 +111,7 @@ blockquote::before {
     footer a  {text-align: center;}
    }
   
-  @media (min-width: 800px) {
-      main {flex-direction: row;}
+  @media (min-width: 800px) {     
       aside {flex-basis: 20rem;  min-width: 20rem;}
       article {flex: 1; overflow: auto; max-width: 50rem; margin-left: 2rem;}
       .article-toc { position: sticky; top: 0; align-self: baseline;}

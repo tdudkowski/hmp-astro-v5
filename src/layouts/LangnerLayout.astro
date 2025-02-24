@@ -5,13 +5,22 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout>
-    <header><h2>Maria Langner "Ostatni bastion"</h2></header>
+    <header><h1>Maria Langner "Ostatni bastion"</h1></header>
     <main>
         <aside>
             <nav>
-                <ul><li><a href="/">Strona główna dygresje.info</a></li></ul>
-                <ul><li><a href="/maria-langner">Maria Langner "Ostatni bastion"</a></li></ul>
-                <ul><li>Książka jest dodatkiem do: <a href="/festung-breslau">Festung&nbsp;Breslau&nbsp;1945 täglich</a></li></ul>
+                <ul>
+                <li><a href="/">Strona główna dygresje.info</a></li> 
+                <li>Książka jest dodatkiem do: <a href="/festung-breslau">Festung&nbsp;Breslau&nbsp;1945 täglich</a></li>
+                </ul>
+            </nav>
+
+          <nav>
+            <ul>
+                <li><a href="/maria-langner">Maria Langner "Ostatni bastion"</a></li>
+                <li><a href="/maria-langner/maria-langner">Maria Lagner</a> o autorce</li>
+                <li><a href="/maria-langner/ostatni-bastion">Ostatni bastion</a> o książce</li>
+            </ul>
             </nav>
         </aside>
         <article>
