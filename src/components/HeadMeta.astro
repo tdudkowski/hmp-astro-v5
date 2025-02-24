@@ -1,10 +1,10 @@
 ---
 interface Props {
   title: string;
-  description1: string;
+  description: string;
   img: string;
 }
-const { title, description1, img} = Astro.props as Props;
+const { title, description, img} = Astro.props as Props;
 const permalink = new URL(Astro.url.pathname, Astro.site).href;
 const ogImageURL = new URL(img, Astro.site).href;
 ---
@@ -14,14 +14,14 @@ const ogImageURL = new URL(img, Astro.site).href;
 <meta property="og:type" content="website" />
 <meta property="og:author" content="Tadeusz Dudkowski" />
 <meta property="og:title" content={title} />
-<meta property="og:description" content={description1} />
+<meta property="og:description" content={description} />
 <meta property="og:image" content={ogImageURL} />
 <meta property="og:url" content={permalink} />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content={title} />
 <meta name="twitter:url" content={permalink} />
 <meta name="twitter:image" content={ogImageURL} />
-<meta name="twitter:description" content={description1} />
+<meta name="twitter:description" content={description} />
 <meta name="description" content="Tadeusz Dudkowski homepage | dygresje.info : IT, JS, Berlin, Drezno">
 <link rel="icon" type="image/x-icon" href="/fbimages/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

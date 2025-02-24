@@ -7,12 +7,12 @@ export interface Props {
   img?: string;
   description1? : string;
 };
-const {title, img} = Astro.props;
+const {title, img, description } = Astro.props;
 ---
 
 <html lang="pl" class="dark">
 	<head>		
-        <HeadMeta {title} {img} />
+        <HeadMeta {title} {img} {description} />
                 <!-- Google tag (gtag.js) -->
                 <script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-2HGNS7Z9HD"></script>
                 <script is:inline>
