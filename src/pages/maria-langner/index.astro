@@ -7,12 +7,14 @@ const pageTitle = "Maria Langner - Ostatni bastion"
 ---
 <FBLayout title={pageTitle}>
 
-<p>Podstrona ta została uruchomiona 2025-02-24, każdego dnia będzie dodawany kolejny rozdział, w sumie jest ich 39. Stopniowo też - oczywiście - zadbam, żeby to wyglądało lepiej.</p>
+<p>Podstrona ta została uruchomiona 2025-02-24, każdego dnia będzie dodawany kolejny rozdział, w sumie jest ich 39. Stopniowo też - oczywiście - zadbam, żeby to wyglądało i czytało się lepiej.</p>
+
+<p>W treści pozostawione są numery stron, tam gdzie wypadają tuż po zamkniętych akapitach.</p>
 
 <h3>Spis treści:</h3>
 
 <ol class="fbpostslist">
-    {allChapters.map((post) => <li><a href={`/maria-langner/${post.slug}`}>{post.data.title}</a> - {post.data.description}</li>)}
+    {allChapters.map((post) => <li><a href={`/maria-langner/${post.slug}`}><strong>{post.data.title}</strong></a> - {post.data.description}</li>)}
 </ol>
 
 <h3>Odnośniki</h3>

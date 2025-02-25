@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import ButtonToggleLD from '../components/ButtonToggleLD.astro';
 import '../styles/langner.css'
 const { frontmatter } = Astro.props;
 const ogimage = '/fbimages/langner-header1.jpg'
@@ -8,16 +9,17 @@ const description = "książka o więzieniu politycznym Gestapo we Wrocławiu"
 ---
 
 <BaseLayout img={ogimage} title={pageTitle} description={description}>
-    <header><h1><a href="/maria-langner">Maria Langner "Ostatni bastion"</a></h1></header>
+    <header><ButtonToggleLD /><h1><a href="/maria-langner">Maria Langner <span>"Ostatni bastion"</span></a></h1></header>
     <main>
         <aside>
+            <h3>dygresje.info</h3>
             <nav>
                 <ul>
                 <li><a href="/">Strona główna dygresje.info</a></li> 
                 <li>Książka jest dodatkiem do: <a href="/festung-breslau">Festung&nbsp;Breslau&nbsp;1945 täglich</a></li>
                 </ul>
             </nav>
-
+            <h3>Ostatni bastion</h3>
           <nav>
             <ul>
                 <li><a href="/maria-langner">Maria Langner "Ostatni bastion"</a></li>
