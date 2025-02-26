@@ -132,6 +132,7 @@ const maria_langner_chapterCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    date: z.string().optional(),
    }),
 });
 // FESTUNG BRESLAU ARTICLE

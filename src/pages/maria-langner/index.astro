@@ -3,6 +3,8 @@ import FBLayout from "../../layouts/LangnerLayout.astro";
 import { getCollection } from 'astro:content';
 
 const allChapters = await getCollection('maria_langner');
+const sortedChapters = allChapters.sort((a, b) => {return a.slug - b.slug});
+
 const pageTitle = "Maria Langner - Ostatni bastion"
 ---
 <FBLayout title={pageTitle}>
@@ -11,10 +13,14 @@ const pageTitle = "Maria Langner - Ostatni bastion"
 
 <p>W treści pozostawione są numery stron, tam gdzie wypadają tuż po zamkniętych akapitach.</p>
 
+<p>W pełni pozostawiona jest pisownia oryginału (pisownia z nie, końcówki, nazwy własne, interpunkcja itp), za wyjątkiem brakujących kropek (uznałem, że mogły wyblaknąć), czy jednego przypadku gdzie jest kropka w miejscu gdzie powinien być przecinek. Natomiast uniwersalnie stosuję dywiz i zwykły cudzysłów.</p>
+
+<p>Akcja rozgrywa się od 16 stycznia do 7 maja 1945, tam gdzie z treści rozdziału wprost wynika kiedy toczy się akcja jest to napisane w nawiasie przed podsumowaniem.</p>
+
 <h3>Spis treści:</h3>
 
-<ol class="fbpostslist">
-    {allChapters.map((post) => <li><a href={`/maria-langner/${post.slug}`}><strong>{post.data.title}</strong></a> - {post.data.description}</li>)}
+<ol class="chapterlist">
+    {sortedChapters.map((post) => <li><a href={`/maria-langner/${post.slug}`}><strong>{post.data.title}</strong></a> - {post.data.date ? <span>[{post.data.date}] </span> : null}{post.data.description}</li>)}
 </ol>
 
 <h3>Odnośniki</h3>
