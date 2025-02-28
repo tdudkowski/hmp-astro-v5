@@ -1,14 +1,20 @@
 ---
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
- 
+
 type Props = {
   post: CollectionEntry<'maria_langner'>
 };
- 
+
 export async function getStaticPaths() {
   const entries = await getCollection('maria_langner');
-  return entries.map((entry) => ({
+  
+  const dayOfTheMonth = new Date().toISOString().slice(8,10);
+  let todaysMax = dayOfTheMonth - 23;
+  
+  const filteredChapters = entries.filter((a) => a.slug <= todaysMax)
+ 
+  return filteredChapters.map((entry) => ({
     params: { slug: entry.slug },
     props: { post: entry },
   }));

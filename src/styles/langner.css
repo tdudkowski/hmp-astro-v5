@@ -23,6 +23,7 @@ article p { margin: .4rem;}
 article pre {margin-left: 1rem;}
 .chapterlist span {color: rgba(61, 61, 21, .9); transform: rotate(-.5deg); display: inline-block; margin-right: .5rem;}
 
+html.dark body {background-color: #fff1e5;}
 html.dark main {background-color: rgb(40, 43, 53); color: rgb(235, 235, 201);}
 html.dark main a {color: rgb(220, 220, 51);}
 html.dark main a:hover {color: rgb(240, 240, 31);}

@@ -2,8 +2,12 @@
 import FBLayout from "../../layouts/LangnerLayout.astro";
 import { getCollection } from 'astro:content';
 
+const dayOfTheMonth = new Date().toISOString().slice(8,10);
+let todaysMax = dayOfTheMonth - 23;
+
 const allChapters = await getCollection('maria_langner');
-const sortedChapters = allChapters.sort((a, b) => {return a.slug - b.slug});
+const filteredChapters =  allChapters.filter((a) => a.slug <= todaysMax)
+const sortedChapters = filteredChapters.sort((a, b) => {return a.slug - b.slug});
 
 const pageTitle = "Maria Langner - Ostatni bastion"
 ---
