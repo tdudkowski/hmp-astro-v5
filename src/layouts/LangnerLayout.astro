@@ -4,8 +4,9 @@ import ButtonToggleLD from '../components/ButtonToggleLD.astro';
 import '../styles/langner.css'
 const { frontmatter } = Astro.props;
 const ogimage = '/fbimages/langner-header1.jpg'
-const pageTitle = 'Maria Langner "Ostatni bastion" | dygresje.info'
-const description = "książka o więzieniu politycznym Gestapo we Wrocławiu"
+const chapterTitle = frontmatter && frontmatter.title ? ' - ' + frontmatter.title : '';
+const pageTitle = `Maria Langner "Ostatni bastion"${chapterTitle}`
+const description = frontmatter && frontmatter.description ? frontmatter.description : "Wspomnienia z więzienia Gestapo we Wrocławiu - 1945";
 ---
 
 <BaseLayout img={ogimage} title={pageTitle} description={description}>
