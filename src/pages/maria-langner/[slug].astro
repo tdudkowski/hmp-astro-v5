@@ -10,7 +10,7 @@ export async function getStaticPaths() {
   const entries = await getCollection('maria_langner');
   
   const dayOfTheMonth = new Date().toISOString().slice(8,10);
-  let todaysMax = dayOfTheMonth - 23;
+  let todaysMax = Number(dayOfTheMonth) + 5;
   
   const filteredChapters = entries.filter((a) => a.slug <= todaysMax)
  

@@ -1,0 +1,15 @@
+---
+const numberInComponent = Number(Astro.url.href.slice(36))
+const prev = numberInComponent - 1
+const next = numberInComponent + 1
+const dayOfTheMonth = new Date().toISOString().slice(8,10);
+let todaysMax = Number(dayOfTheMonth) + 5;
+console.log(numberInComponent, prev, next, dayOfTheMonth, todaysMax)
+---
+
+<nav class="prevnext">
+<ul>
+    <li class={prev < 1 ? 'none' : null }><a href=`/maria-langner/${prev}`>poprzedni rozdział</a></li>
+    <li class={next > todaysMax ? 'none' : null }><a href=`/maria-langner/${next}`>następny rozdział</a></li>
+</ul>
+</nav>

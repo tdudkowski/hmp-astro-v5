@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import ButtonToggleLD from '../components/ButtonToggleLD.astro';
+import PrevNext from '../components/LangnerPrevNext.astro'
 import '../styles/langner.css'
 const { frontmatter } = Astro.props;
 const ogimage = '/fbimages/langner-header1.jpg'
@@ -8,7 +9,6 @@ const chapterTitle = frontmatter && frontmatter.title ? ' - ' + frontmatter.titl
 const pageTitle = `Maria Langner "Ostatni bastion"${chapterTitle}`
 const description = frontmatter && frontmatter.description ? frontmatter.description : "Wspomnienia z więzienia Gestapo we Wrocławiu - 1945";
 ---
-
 <BaseLayout img={ogimage} title={pageTitle} description={description}>
     <header>
         <nav><a href="/">Strona główna dygresje.info</a></nav>
@@ -35,6 +35,7 @@ const description = frontmatter && frontmatter.description ? frontmatter.descrip
         <article>
             {frontmatter && frontmatter.title ? <h2>{frontmatter.title}</h2>: null}
         <slot />
+           <!-- {frontmatter && frontmatter.description ?  <PrevNext /> : null} -->
         </article>
     </main>
     <footer>

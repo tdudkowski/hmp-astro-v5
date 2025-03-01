@@ -3,7 +3,7 @@ import FBLayout from "../../layouts/LangnerLayout.astro";
 import { getCollection } from 'astro:content';
 
 const dayOfTheMonth = new Date().toISOString().slice(8,10);
-let todaysMax = dayOfTheMonth - 23;
+let todaysMax = Number(dayOfTheMonth) + 5;
 
 const allChapters = await getCollection('maria_langner');
 const filteredChapters =  allChapters.filter((a) => a.slug <= todaysMax)
@@ -17,7 +17,7 @@ const pageTitle = "Maria Langner - Ostatni bastion"
 
 <p>W treści pozostawione są numery stron, tam gdzie wypadają tuż po zamkniętych akapitach.</p>
 
-<p>W pełni pozostawiona jest pisownia oryginału (pisownia z nie, końcówki, nazwy własne, interpunkcja itp), za wyjątkiem brakujących kropek (uznałem, że mogły wyblaknąć), czy jednego przypadku gdzie jest kropka w miejscu gdzie powinien być przecinek. Natomiast uniwersalnie stosuję dywiz i zwykły cudzysłów.</p>
+<p>W pełni pozostawiona jest pisownia oryginału (pisownia z nie, końcówki, nazwy własne, interpunkcja itp), za wyjątkiem brakujących kropek (uznałem, że mogły wyblaknąć), czy kilku przypadków gdzie jest kropka w miejscu gdzie powinien być przecinek. Natomiast uniwersalnie stosuję dywiz i zwykły cudzysłów.</p>
 
 <p>Akcja rozgrywa się od 16 stycznia do 7 maja 1945, tam gdzie z treści rozdziału wprost wynika kiedy toczy się akcja jest to napisane w nawiasie przed podsumowaniem.</p>
 
