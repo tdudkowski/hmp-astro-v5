@@ -9,6 +9,7 @@ let todaysMax = Number(dayOfTheMonth) + 5;
 <nav class="prevnext">
 <ul>
     <li class={prev < 1 ? 'none' : null }><a href=`/maria-langner/${prev}`>poprzedni rozdział</a></li>
+    <li>&nbsp;||&nbsp;</li>
     <li class={next > todaysMax ? 'none' : null }><a href=`/maria-langner/${next}`>następny rozdział</a></li>
 </ul>
 </nav>

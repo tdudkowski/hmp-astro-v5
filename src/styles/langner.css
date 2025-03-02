@@ -24,6 +24,8 @@ article pre {margin-left: 1rem;}
 
 .prevnext {border: 1px solid #663; margin: 1rem; padding: .5rem;}
 .prevnext ul {display:flex; justify-content: space-around; list-style-type: none;}
+.prevnext li {display: block;}
+.prevnext li a {display: block;}
 .prevnext .none a {color: rgba(151, 151, 151, .5); pointer-events: none;}
 .chapterlist span {color: rgba(61, 61, 21, .9); transform: rotate(-.5deg); display: inline-block; margin-right: .5rem;}
 
