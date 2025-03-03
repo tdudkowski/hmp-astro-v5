@@ -5,10 +5,20 @@ import PrevNext from '../components/LangnerPrevNext.astro'
 import '../styles/langner.css'
 const { frontmatter } = Astro.props;
 const ogimage = '/fbimages/langner-header1.jpg'
-const chapterTitle = frontmatter && frontmatter.title ? ' - ' + frontmatter.title : '';
+const numberForComponent = Number(Astro.url.href.slice(36,37));
+let chapterTitle;
+(() => { {
+  if (frontmatter && frontmatter.description) {
+    return chapterTitle=` rozdział ${numberForComponent}: ${frontmatter.title}`;
+  } else if (frontmatter && frontmatter.title) {
+    return chapterTitle=` - ${frontmatter.title}`;
+  } else {
+    return chapterTitle='';
+  }
+}})()
+// const chapterTitle = frontmatter && frontmatter.title ? ' - ' + frontmatter.title : '';
 const pageTitle = `Maria Langner "Ostatni bastion"${chapterTitle}`
 const description = frontmatter && frontmatter.description ? frontmatter.description : "Wspomnienia z więzienia Gestapo we Wrocławiu - 1945";
-const numberForComponent = Number(Astro.url.href.slice(36,37))
 ---
 <BaseLayout img={ogimage} title={pageTitle} description={description}>
     <header>
