@@ -5,7 +5,7 @@ import PrevNext from '../components/LangnerPrevNext.astro'
 import '../styles/langner.css'
 const { frontmatter } = Astro.props;
 const ogimage = '/fbimages/langner-header1.jpg'
-const numberForComponent = Number(Astro.url.href.slice(36,37));
+const numberForComponent = Number(Astro.url.href.slice(36).replace(/\D/g, ''));
 let chapterTitle;
 (() => { {
   if (frontmatter && frontmatter.description) {
