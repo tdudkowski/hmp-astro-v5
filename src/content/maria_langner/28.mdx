@@ -1,9 +1,11 @@
 ---
 layout: '../../layouts/LangnerLayout.astro'
 title: Nikczemnicy
-description: ddd
+description: Marii udaje się przekonać strażnika do przeniesienia jej do celi zbiorowej. Wreszcie jest możliwość kontaktu z innymi więźniarkami i praca. Dyskusje, coraz gorsza sytuacja na froncie, obrazy z więzienia. Niespodziewana wiadomość z domu. Tragedie osadzonych.
 date: od połowy do końca marca
 ---
+
+import Center from '../../components/LangnerCenter.astro'
 
 Dwa razy dziennie otwierają się drzwi celi. Nickel, Ondrusch albo Bawarczyk Fryc przynoszą jedzenie, poza tym jestem samotna w dzień i w nocy. Cela jest wąska, nie można w niej chodzić. Prycza jest pogryzionym przez robaki, starym drewnianym sprzętem, który ma chyba ze sto lat. Winni i niewinni dotykali tego drzewa. Wciąż od nowa usiłuję wyobrazić sobie, kto był już przede mną w tej celi. Ale postacie te nie nabierają życia, tylko zgroza ich przeżyć jest w celi i we mnie.
 
@@ -17,7 +19,7 @@ I o Heisigu muszę wciąż myśleć podczas długiej monotonii samotnych godzin.
 
 Mija tydzień w ślimaczym tempie. Przeważnie w celi jest ciemno. Krata w oknie jest zabezpieczona jeszcze jedną wpuszczoną w ścianę kratą z gęstej sieci żelaznej o grubych oczkach. Ponieważ szyby są wybite, Nickel włożył stary, wełniany koc między obie kraty. Muszę zadać sobie wiele trudu, aby szpilką od włosów wydłubać szparę w przedniej kracie i w ten sposób uzyskać odrobinę światła. Jest to karna cela, jedyna w więzieniu, jaka jeszcze była wolna. Nickel obiecał mi, że umieści mnie gdzie indziej, skoro tylko zwolni się jakaś oddzielna cela. Ale Thieme i Hüsgen starają się już o to, aby więzienie stale było pełne, a agenci Gestapo, za każdym razem, gdy przyprowadzają nowy transport więźniów, przyjmowani są jak królowie i odpowiednio goszczeni. Nie ma wielkich widoków na wydostanie się z ciemnicy. Stary Reichelt, jeden z dawnych dozorców więziennych, który na zmianę z Ondruschem i Nicklem pełni służbę klucznika, ulega moim namowom i nie wyłącza na noc światła, a ponieważ w niektórych godzinach jest prąd, nieraz żarzy się nade mną czerwona niteczka węglowej żarówki.
 
-Z Nicklem, który mnie istotnie traktuje jak starą więźniarkę, nawiązałam dziwny i niesamowity stosunek przyjaźni. Opowiada mi rzeczy, o których przypuszcza, że mnie interesują. O trzy domy dalej stoi w piwnicy osiemdziesiąt naładowanych rusznic przeciwpancernych (przypis: Rusznica przeciwpancerna Panzerfaust.). Jeśli w ten dom uderzy bomba, wylecimy wszyscy w powietrze Albo: Jeśli wojska radzieckie wejdą nieoczekiwanie do twierdzy, wszyscy więźniowie będą musieli się ustawić w korytarzu i Thieme wykończy ich z karabinu maszynowego. On, Nickel, byłby za tym, aby cały ten burdel wysadzić po prostu w powietrze. Na dachu prezydium stoi działo przeciwlotnicze, które na pewno Rosjanie wkrótce wezmą na cel, i wtedy musimy być na wszystko przygotowani. Wcale by się nie dziwił, gdyby artyleria wkrótce zamieniła cały budynek w kupę gruzów. Nickel godzi się na moją propozycję i nie zamyka już zewnętrznych drzwi celi. Zamykają się ciężko, kilkakrotnie już Nickel nie mógł ich otworzyć. W ten sposób znów docierają do mnie znajome szmery z cel i korytarzy, a nawet tony harmonii Thiemego, dźwięki piosenek nadreńskich, śpiewanych przez Hüsgena, śmiech Wandy i rozbrzmiewające coraz mocniej odgłosy uczt wieczornych, nocne wrzaski i krzyki, które niekiedy zagłusza i przerywa huk padającej bomby.
+Z Nicklem, który mnie istotnie traktuje jak starą więźniarkę, nawiązałam dziwny i niesamowity stosunek przyjaźni. Opowiada mi rzeczy, o których przypuszcza, że mnie interesują. O trzy domy dalej stoi w piwnicy osiemdziesiąt naładowanych rusznic przeciwpancernych (przypis: Rusznica przeciwpancerna Panzerfaust.). Jeśli w ten dom uderzy bomba, wylecimy wszyscy w powietrze. Albo: Jeśli wojska radzieckie wejdą nieoczekiwanie do twierdzy, wszyscy więźniowie będą musieli się ustawić w korytarzu i Thieme wykończy ich z karabinu maszynowego. On, Nickel, byłby za tym, aby cały ten burdel wysadzić po prostu w powietrze. Na dachu prezydium stoi działo przeciwlotnicze, które na pewno Rosjanie wkrótce wezmą na cel, i wtedy musimy być na wszystko przygotowani. Wcale by się nie dziwił, gdyby artyleria wkrótce zamieniła cały budynek w kupę gruzów. Nickel godzi się na moją propozycję i nie zamyka już zewnętrznych drzwi celi. Zamykają się ciężko, kilkakrotnie już Nickel nie mógł ich otworzyć. W ten sposób znów docierają do mnie znajome szmery z cel i korytarzy, a nawet tony harmonii Thiemego, dźwięki piosenek nadreńskich, śpiewanych przez Hüsgena, śmiech Wandy i rozbrzmiewające coraz mocniej odgłosy uczt wieczornych, nocne wrzaski i krzyki, które niekiedy zagłusza i przerywa huk padającej bomby.
 
 162
 
@@ -79,15 +81,15 @@ Rozmyślania, zimno, bezczynne leżenie i czekanie nużą bardzo. Jestem w bezna
 
 Ruth i Gisela śpiewają cicho.
 
-Trzy lilie, trzy lilie...
+<Center>Trzy lilie, trzy lilie...</Center>
 
 Ruth ma słodki, melodyjny, rzewny sopran, Gisela tylko nuci.
 
-Gdy różyczkę chłopiec ujrzał polną...
+<Center>Gdy różyczkę chłopiec ujrzał polną...</Center>
 
 A potem:
 
-Przy stłumionym dźwięku trąb...
+<Center>Przy stłumionym dźwięku trąb...</Center>
 
 Pierścień wokół miasta zaciska się coraz bardziej... Przy stłumionym dźwięku trąb...
 

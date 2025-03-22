@@ -30,6 +30,7 @@ article pre {margin-left: 1rem;}
 .prevnext .none a {color: rgba(151, 151, 151, .5); pointer-events: none;}
 .chapterlist span {color: rgba(61, 61, 21, .9); transform: rotate(-.5deg); display: inline-block; margin-right: .5rem;}
 .spacedtxt {letter-spacing: .4rem; padding: 0 .3rem;}
+.centertxt {text-align: center; display: block;}
 
 html.dark body {background-color: #fff1e5;}
 html.dark main {background-color: rgb(40, 43, 53); color: rgb(235, 235, 201);}
