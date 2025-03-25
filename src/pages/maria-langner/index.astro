@@ -13,11 +13,11 @@ const pageTitle = "Maria Langner - Ostatni bastion"
 ---
 <FBLayout title={pageTitle}>
 
-<p>Podstrona ta została uruchomiona 2025-02-24, każdego dnia będzie dodawany kolejny rozdział, w sumie jest ich 39. Stopniowo też - oczywiście - zadbam, żeby to wyglądało i czytało się lepiej.</p>
+<p>Podstrona ta została uruchomiona 2025-02-24, każdego dnia będzie dodawany kolejny rozdział, w sumie jest ich 39, czyli ostatni rozdział ukaże się 3 kwietnia.</p>
 
 <p>W treści pozostawione są numery stron, tam gdzie wypadają tuż po zamkniętych akapitach.</p>
 
-<p>W pełni pozostawiona jest pisownia oryginału (pisownia z nie, końcówki, nazwy własne, interpunkcja itp), za wyjątkiem brakujących kropek (uznałem, że mogły wyblaknąć), czy kilku przypadków gdzie jest kropka w miejscu gdzie powinien być przecinek. Natomiast uniwersalnie stosuję dywiz i zwykły cudzysłów.</p>
+<p>W pełni pozostawiona jest pisownia oryginału (pisownia z nie, końcówki, nazwy własne, interpunkcja itp), z wyjątkiem brakujących kropek (uznałem, że mogły wyblaknąć), czy kilku przypadków gdzie jest kropka w miejscu gdzie powinien być przecinek. Natomiast uniwersalnie stosuję dywiz i zwykły cudzysłów.</p>
 
 <p>Przypisy są oryginalne, umieściłem je bezpośrednio, w miejscu do którego się odnoszą i bez własnego komentarza.</p>
 
@@ -29,10 +29,4 @@ const pageTitle = "Maria Langner - Ostatni bastion"
     {sortedChapters.map((post) => <li><a href={`/maria-langner/${post.slug}`}><strong>{post.data.title}</strong></a> - {post.data.date ? <span>[{post.data.date}] </span> : null}{post.data.description}</li>)}
 </ol>
 
-<h3>Odnośniki</h3>
-<ul>
-    <li>wikipedia <a href="https://de.wikipedia.org/wiki/Maria_Langner">Maria Langner</a></li>
-    <li>Deutsche Biographie <a href="https://www.deutsche-biographie.de/gnd106277901.html#ndbcontent">Langner, Maria, geborene Pollitzer</a></li>
-    <li>books.google <a href="https://books.google.pl/books/about/Die_letzte_Bastion.html?id=J8RdAAAAIAAJ&redir_esc=y">Die letzte Bastion</a></li>
-</ul>
 </FBLayout>
