@@ -2,20 +2,29 @@
 import FBLayout from "../../layouts/LangnerLayout.astro";
 import { getCollection } from 'astro:content';
 
-const dayOfTheMonth = new Date().toISOString().slice(8,10);
-let todaysMax = Number(dayOfTheMonth) + 36;
+// const dayOfTheMonth = new Date().toISOString().slice(8,10);
+// let todaysMax = Number(dayOfTheMonth) + 36;
+// const filteredChapters =  allChapters.filter((a) => a.slug <= todaysMax)
 
 const allChapters = await getCollection('maria_langner');
-const filteredChapters =  allChapters.filter((a) => a.slug <= todaysMax)
-const sortedChapters = filteredChapters.sort((a, b) => {return a.slug - b.slug});
+const sortedChapters = allChapters.sort((a, b) => {return a.slug - b.slug});
 
 const pageTitle = "Maria Langner - Ostatni bastion"
 ---
 <FBLayout title={pageTitle}>
 
-<p>Podstrona ta została uruchomiona 2025-02-24, każdego dnia będzie dodawany kolejny rozdział, w sumie jest ich 39, czyli ostatni rozdział ukaże się 3 kwietnia.</p>
+<p>Cały tekst książki Marii Langner "Ostatni bastion", podzielony na rozdziały i z uwzględnieniem erraty.</p>
+<p>Jest pierwsza powojenna relacja z oblężenia Wrocławia.</p>
 
-<h3>Konwencja:</h3>
+<h3>Chronologia</h3>
+
+<ul>
+    <li>Od 16 do 31 stycznia Maria jest cywilem na terenie miasta.</li>
+    <li>Od 1 lutego w więzieniu Gestapo przy Prezydium Policji na Podwalu. Proces w pierwszej połowie marca. Wyrok: 4 lata.</li>    
+    <li>W końcu marca nastąpiła relokacja więźniów do więzienia miejskiego na Kleczkowie.</li>
+</ul>
+ 
+<h3>Konwencja</h3>
 
 <ul>
     <li>W treści pozostawione są numery stron, tam gdzie wypadają tuż po zamkniętych akapitach.</li>
@@ -24,7 +33,7 @@ const pageTitle = "Maria Langner - Ostatni bastion"
     <li>Akcja rozgrywa się od 16 stycznia do 7 maja 1945, tam gdzie z treści rozdziału wprost wynika kiedy toczy się akcja jest to napisane w nawiasie przed podsumowaniem.</li>
 </ul>
 
-<h3>Spis treści:</h3>
+<h3>Spis treści</h3>
 
 <ol class="chapterlist">
     {sortedChapters.map((post) => <li><a href={`/maria-langner/${post.slug}`}><strong>{post.data.title}</strong></a> - {post.data.date ? <span>[{post.data.date}] </span> : null}{post.data.description}</li>)}

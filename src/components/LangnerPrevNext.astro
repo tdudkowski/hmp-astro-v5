@@ -3,13 +3,13 @@ const { number } = Astro.props;
 const numberInComponent = Number(Astro.url.href.slice(36,37))
 const prev = number - 1
 const next = number + 1
-const dayOfTheMonth = new Date().toISOString().slice(8,10);
-let todaysMax = Number(dayOfTheMonth) + 5;
+// const dayOfTheMonth = new Date().toISOString().slice(8,10);
+// let todaysMax = Number(dayOfTheMonth) + 5;
 ---
 <nav class="prevnext">
 <ul>
     <li class={prev < 1 ? 'none' : null }><a href=`/maria-langner/${prev}`>poprzedni rozdział</a></li>
     <li>&nbsp;||&nbsp;</li>
-    <li class={next > todaysMax ? 'none' : null }><a href=`/maria-langner/${next}`>następny rozdział</a></li>
+    <li class={next > 39 ? 'none' : null }><a href=`/maria-langner/${next}`>następny rozdział</a></li>
 </ul>
 </nav>
