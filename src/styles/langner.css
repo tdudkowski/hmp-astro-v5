@@ -19,7 +19,13 @@ aside ul {list-style-type: circle;}
 
 article {padding: 1rem;}
 article h2 {font-family: "Cardo"; font-size: 1.7rem; padding-left: .5rem;}
-article ul {list-style-type: ' - '; padding-left: 1.2rem; margin: 0;}
+/* article ul {list-style-type: ' - '; padding-left: 1.2rem;} */
+article ul {padding-left: 1rem; margin: .2rem;}
+article li {list-style-type: ' - '; padding-left: .2rem;}
+article li p {margin-left: 0;}
+/* article li {list-style-type: ' - '; margin-left: 0;} */
+/* article li p::before { content: ' - ' } */
+
 article p { margin: .4rem;}
 article pre {margin-left: 1rem;}
 
