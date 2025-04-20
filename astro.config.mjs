@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import sectionize from '@hbsnow/rehype-sectionize';
 
 export default defineConfig({
-  experimental: {svg: true},
+  svg: true,
   site: 'https://dygresje.info/',
   integrations: [mdx(), sitemap()],
   markdown: {
