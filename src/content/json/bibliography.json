@@ -127,7 +127,63 @@
         {"author": "Micklitza André, Micklitza Kerstin", "title": "Spreewald: Unterwegs zwischen Burg, Lübbenau, Lübben und Schlepzig", "publisher": "Trescher Verlag", "yearOfPublication": "2019", "pages" : "156", "ISBN": "978-3-89784-458-5", "add" : "5 Auflage"}
     ],
 "sachsen" : [
-        {"author": "", "title": "", "publisher": "", "yearOfPublication": "", "pages" : "", "ISBN": "", "add" : "", "originalEditionYear" : ""}
+        {"author": "Konstantin Hermann, Thieme André", "title": "Sächsische Geschichte im Überblick: Texte, Karten, Grafiken", "publisher": "Edition Leipzig", "yearOfPublication": "2013", "pages" : "240", "ISBN": "978-3-361-00693-5", "add" : ""},
+        {"author": "Fellmann Walter", "title": "DuMont Kunst Reiseführer Sachsen", "publisher": "DuMont Reiseverlag", "yearOfPublication": "2012", "pages" : "424", "ISBN": "9783770140930", "add" : "6 aktualisierte Auflage"},
+        {"author": "Auerbach Konrad, Bacher Isolde et al", "title": "Sachsen", "publisher": "Baedeker", "yearOfPublication": "2014", "pages" : "414", "ISBN": "978-3-8297-1449-5", "add" : "8. Auflage"},
+        {"author": "Wurlitzer Bernd, Sucher Kerstin", "title": "Sachsen. Mit Dresden, Leipzig, Erzgebirge und Sächsischer Schweiz", "publisher": "Trescher", "yearOfPublication": "2018", "pages" : "432", "ISBN": "978-3-89794-402-2", "add" : "4. aktual. und erweiterte Aufl; ?"},
+        {"author": "Sucher Kerstin, Wurlitzer Bernd", "title": "Reiseführer WUNDERvolles Sachsen", "publisher": "Steffen Verlag", "yearOfPublication": "2013", "pages" : "280", "ISBN": "978-3-942977-37-6", "add" : "1. Auf"},
+        {"author": "Kotte Henner", "title": "Sächsisches Elbland. Die 99 besonderen Seiten der Region", "publisher": "Mitteldeutscher Verlag", "yearOfPublication": "2019", "pages" : "160", "ISBN": "978-3-96311-154-9", "add" : "1. Auflage; ?"},
+        {"author": "", "title": "Die Herrscher Sachsens", "publisher": "Verlag C. H. Beck", "yearOfPublication": "2013", "pages" : "384", "ISBN": "978-3-406-65166-3", "add" : "2 durchgesehene Auflage"},
+        {"author": "Staszewski Jacek", "title": "August III Sas", "publisher": "Ossolineum", "yearOfPublication": "1998", "pages" : "312", "ISBN": "83-04-04387-4", "add" : ""},
+        {"author": "Staszewski Jacek", "title": "August II Mocny", "publisher": "Ossolineum", "yearOfPublication": "1989", "pages" : "316", "ISBN": "978-83-283-1961-5", "add" : ""},
+        {"author": "Konstantin Hermann", "title": "Sachsen 1949-1990: Historische Reiseführer durch die DDR", "publisher": "Mitteldeutscher Verlag", "yearOfPublication": "2016", "pages" : "240", "ISBN": "", "add" : "978-3-95462-543-7"}
+    ],
+"sachsen_dresden" : [
+        {"author": "Baumgärtel Siegmar, Gertoberens Klaus", "title": "Dresden-Stadtlexikon", "publisher": "SAXO'Phon GmbH", "yearOfPublication": "2009", "pages" : "336", "ISBN": "978-3-938325-61-2", "add" : "edition Sächsische Zeitung"},
+        {"author": "Eisenschmidt Rainer, Münch Christoph, Reincke Madeleine", "title": "Dresden", "publisher": "Baedeker", "yearOfPublication": "2013", "pages" : "318", "ISBN": "978-3-8297-1362-7", "add" : "14. Auflage"},
+        {"author": "Sucher Kerstin, Wurlitzer Bernd", "title": "Reiseführer WUNDERvolles Dresden", "publisher": "Steffen Verlag", "yearOfPublication": "2016", "pages" : "234", "ISBN": "978-3-95799-001-3", "add" : "1. Auflage"},
+        {"author": "Pietschmann Thorsten", "title": "Dresden. Architektur und Kunst", "publisher": "Cybela Verlag GmbH", "yearOfPublication": "2013", "pages" : "520", "ISBN": "978-3-944-47000-9", "add" : ""},
+        {"author": "Helfricht Jürgen", "title": "Mystisches Dresden: Ein außergewöhnlicher Stadtführer zu geheimnisvollen Orten in Dresden und rund um das Elbtal", "publisher": "Oberlausitzer Verlag", "yearOfPublication": "2017", "pages" : "672", "ISBN": "978-3941908659", "add" : ""},
+        {"author": "Donath Matthias, Puppe Roland", "title": "Der Grosse Garten in Dresden", "publisher": " Edition Leipzig", "yearOfPublication": "2012", "pages" : "48", "ISBN": "978-3-361-00677-5", "add" : ""},
+        {"author": "Herz Reiomnund", "title": "Canaletto malt Dresden", "publisher": "George-Bähr-Forum Dresden", "yearOfPublication": "2014", "pages" : "22", "ISBN": "", "add" :  ""},
+        {"author": "", "title": "Drezno Przewodnik po Dreźnie", "publisher": "Verlag Zeit im Bild Dresden", "yearOfPublication": "1972", "pages" : "140", "ISBN": "", "add" : ""},        
+        {"author": "Böttger Michael", "title": "Dresden. Rundgänge durch die Stadtgeschichte", "publisher": "Sutton Verlag", "yearOfPublication": "2020", "pages" : "144", "ISBN": "978-3-96303-088-8", "add" : ""},
+        {"author": "Kłopotowski Andrzej", "title": "Drezno i Saksonia", "publisher": "Helion", "yearOfPublication": "2016", "pages" : "224", "ISBN": "978-83-283-1961-5", "add" : "seria Bezdroża"},
+        {"author": "Mischke Roland, Kleider Anja", "title": "1000 Places To See Before You Die: Stadtführer Dresden spezial", "publisher": "Vista Point;", "yearOfPublication": "2021", "pages" : "208", "ISBN": "", "add" : "978-3961415755"},
+        {"author": "Donath Matthias, Welich Dirk", "title": "Der Zwinger zu Dresden", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2011", "pages" : "48", "ISBN": "978-3-361-00668-3", "add" : "Edition Leipzig"},
+        {"author": "Donath Matthias, Puppe Roland", "title": "Der Grosse Garten in Dresden", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2012", "pages" : "48", "ISBN": "978-3-361-00677-5", "add" : "Edition Leipzig"}
+    ],
+    "sachsen_oberlausitz": [
+        {"author": "Krell Detlef", "title": "Reise Know-How Reiseführer Oberlausitz, Lausitzer Seenland", "publisher": "Verlag Peter Rump GmbH", "yearOfPublication": "", "pages" : "396", "ISBN": "978-3-8317-2920-3", "add" : "978-3-8317-2920-3"},
+        {"author": "Almut Philipp", "title": "Lausitz. Die 99 besonderen Seiten der Region", "publisher": "Mitteldeutscher Verlag", "yearOfPublication": "2018", "pages" : "160", "ISBN": "978-3-95462-306-8", "add" : "1. Auflage"},        
+        {"author": "Papaj Marcin", "title": "Przewodnik Europa Miasto Zgorzelec Görlitz", "publisher": "Galileos", "yearOfPublication": "2012", "pages" : "48", "ISBN": "978-83-62917-30-3", "add" : "wydanie I"},
+        {"author": "Kling Wolfgang", "title": "Görlitz mit Bautzen & Riesengebirge", "publisher": "via reise", "yearOfPublication": "2017", "pages" : "168", "ISBN": "978-3-945983-35-3", "add" : ""},
+        {"author": "Peter Renate", "title": "Bautzen. Historische Stadt in der Oberlausitz", "publisher": "B&V Verlag", "yearOfPublication": "2017", "pages" : "92", "ISBN": "978-3-938220-40-5", "add" : ""},
+        {"author": "Kassner Jens", "title": "Bautzen an einem Tag. Ein Stadtrundgang", "publisher": "Lehmstedt", "yearOfPublication": "2012", "pages" : "48", "ISBN": "978-3-942473-25-5", "add" : "2. aktualisierte Auflage"},
+        {"author": "Gerth Andreas", "title": "Mystisches Bautzen: Ein einzigartiger Stadtplan für Entdecker zu den geheimnisvollen Orten Bautzens", "publisher": "Oberlausitzer Verlag", "yearOfPublication": "2015", "pages" : "2", "ISBN": "978-3-941908-42-0", "add" : ""}
+    ],
+    "sachsen_schweiz" : [
+        {"author": "Krell Detlef ", "title": "Reise Know-How Reiseführer Sächsische Schweiz (mit Stadtführer Dresden)", "publisher": "Verlag Peter Rump GmbH", "yearOfPublication": "2018", "pages" : "372", "ISBN": "978-3831729920", "add" : "Auflage 10; ?"},
+        {"author": "Kotte Henner", "title": "Sächsische Schweiz. Die 99 Besonderheiten der Region", "publisher": "Mitteldeutscher Verlag", "yearOfPublication": "2016", "pages" : "160", "ISBN": "978-3-95462-630-4", "add" : "1. Auflage; ?"},
+        {"author": "Wengel Tassilo", "title": "Sächsische Schweiz. Die 55 schönsten Touren", "publisher": "Bruckmann Verlag", "yearOfPublication": "2014", "pages" : "192", "ISBN": "978-3-7654-4897-3", "add" : "?"},
+        {"author": "Pollmann Bernhard", "title": "Sächsische Schweiz - Wanderführer mit 60 Touren - Mit Wander-App", "publisher": "Editionnova", "yearOfPublication": "2022", "pages" : "248", "ISBN": "978-3861909163", "add" : ""},        
+        {"author": "Hesp Anneke", "title": "Wandern mit Caspar David Friedrich", "publisher": "Anneke Hesp", "yearOfPublication": "2018", "pages" : "42", "ISBN": "978-90-8283-71-00", "add" : "?"},
+        {"author": "Taube Angelika", "title": "Festung Königstein", "publisher": "Edition Leipzig", "yearOfPublication": "2016", "pages" : "128", "ISBN": "978-3-361-00698-0", "add" : ""},
+        {"author": "Taube Angelika", "title": "Twierdza Königstein. Górska twierdza Szwajcarii Saksońskiej", "publisher": "TopSpot Guide", "yearOfPublication": "", "pages" : "64", "ISBN": "978-3-938722-44-2", "add" : ""},
+        {"author": "Pawluschkow Andrej", "title": "Hohe Gäste auf Sachsens schönster Feste", "publisher": "Festung Königstein", "yearOfPublication": "2020", "pages" : "32", "ISBN": "978-3-9821081-1-7", "add" : ""},
+        {"author": "Sturm Albrecht", "title": "Pirna. Stadtführer", "publisher": "Kuratorium Altstadt Pirna e.V.", "yearOfPublication": "2009", "pages" : "128", "ISBN": "978-3-00-026671-3", "add" : "1. Auflage"}
+    ],
+    "sachsen_andere" : [
+        {"author": "Winkler Uwe", "title": "Meissen an einem Tag. Ein Stadrundgang", "publisher": "Lehmstedt Verlag", "yearOfPublication": "2016", "pages" : "48", "ISBN": "978-3-95797-031-2", "add" : ""},
+        {"author": "Papaj Marcin", "title": "Drezno Miśnia. Ilustrowany przewodnik z mapam", "publisher": "Galileos", "yearOfPublication": "2016", "pages" : "60", "ISBN": "978-83-7868-272-1", "add" : "wydanie IV"},
+        {"author": "Donath Matthias, Hensel Margitta", "title": "Albrechtsburg Meissen", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2011", "pages" : "72", "ISBN": "978-3-361-00662-1", "add" : "Edition Leipzig"},
+        {"author": "Donath Matthias, Hensel Margitta", "title": "Schloss Moritzburg und Fasanenschlösschen", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2017", "pages" : "72", "ISBN": "978-3-361-00707-9", "add" : "Edition Leipzig"},
+        {"author": "Gaitzsch Jens", "title": "Zamek Stolpen. Oficjalny przewodnik po zamku", "publisher": "Monumente und Menschen", "yearOfPublication": "", "pages" : "32", "ISBN": "978-3-939609-85-8", "add" : "wydanie 4."},
+        {"author": "Gaitzsch Jens", "title": "Burg Stolpen", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2015", "pages" : "48", "ISBN": "978-3-361-00704-8", "add" : "1 Auflage Edition Leipzig"},
+        {"author": "Gaitzsch Jens", "title": "Gräfin Cosel. 49 Jahre Gefangene auf Burg Stolpen", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2018", "pages" : "36", "ISBN": "3-936111-01-4", "add" : "Edition Basalt"},
+
+        {"author": "Monzer Frieder, Böhme-Schalling Hermann", "title": "Erzgebirge: Traditionen, Städte und Landschaften zwischen Chemnitz und Egergraben", "publisher": "Trescher", "yearOfPublication": "2019", "pages" : "336", "ISBN": "978-3897944459", "add" : "Auflage 1"},        
+        {"author": "Mundus Doris", "title": "Leipzig an einem Tag: Ein Stadtrundgang", "publisher": "Lehmstedt Verlag", "yearOfPublication": "2019", "pages" : "64", "ISBN": "978-3937146-43-0", "add" : "8. aktualizierte Auflage"}
     ],
 "copypaste" : [
         {"author": "", "title": "", "publisher": "", "yearOfPublication": "", "pages" : "", "ISBN": "", "add" : "", "originalEditionYear" : ""}
