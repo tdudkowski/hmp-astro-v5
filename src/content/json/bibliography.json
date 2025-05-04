@@ -96,6 +96,39 @@
     {"author": "Harrison Richard W.", "title": "Prelude To Berlin. The Red Army's Offensive Operations in Poland and Eastern Germany, 1945. Soviet General Staff. Edited and translated by", "publisher": "Helion & Company", "yearOfPublication": "2016", "pages" : "1250", "ISBN": "978-1-910777-16-9", "add" : "", "originalEditionYear" : "2016"},
     {"author": "Le Tissier Tony", "title": "With Our Backs to Berlin: The German Army in Retreat 1945", "publisher": "The History Press", "yearOfPublication": "2021", "pages" : "264", "ISBN": "978-0750998482", "add" : "Second Edition,New edition (December 3, 2021); 280 pages in another edition", "originalEditionYear" : ""}
 ],
+"de" : [
+        {"author": "Adamczak Sławoomir, Firlej Katarzyna", "title": "Niemcy praktyczny przewodnik", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "708", "ISBN": "978-83-7513-107-9", "add" : ""},
+        {"author": "Arnold Rosemarie, Arnold Walter R. et al", "title": "Austria", "publisher": "Baedeker", "yearOfPublication": "2009", "pages" : "606", "ISBN": "978-3-8297-6613-5", "add" : "12 Auflage, dodac autorow"},
+        {"author": "", "title": "Die DDR Eine Chronik deutscher Geschichte", "publisher": "Otus Verlag AG", "yearOfPublication": "2018", "pages" : "192", "ISBN": "978-3-7359-1258-9", "add" : ""},
+        {"author": "Woods Sarah", "title": "Wiedeń", "publisher": "Wydawnictwo G+J RBA", "yearOfPublication": "2013", "pages" : "272", "ISBN": "978-83-7596-437-0", "add" : "National Geographic Przewodnik"},
+        {"author": "Czerwińska Barbara, Nowak Małgorzata", "title": "Wiedeń", "publisher": "ExpressMap", "yearOfPublication": "2017", "pages" : "288", "ISBN": "978-83-7546-484-9", "add" : "explore!guide wydanie 3"},
+        {"author": "Eickhoff Peter", "title": "111 Orte in Wien die Man gesehen haben muss", "publisher": "Emons Verlah GmbH", "yearOfPublication": "2024", "pages" : "240", "ISBN": "978-3-7408-1975-0", "add" : "Erstausgabe 2012"},
+        {"author": "Arens Detlev, Bongartz Marianne, Henseler Stephanie", "title": "Köln", "publisher": "Dumont", "yearOfPublication": "2018", "pages" : "296", "ISBN": "978-3-7701-7519-2", "add" : "Reise-Taschenbuch, 4. aktualisierte Auflage 2018"}
+    ],
+"brandenburg" : [
+        {"author": "Czupryna Joanna Maria, Ptaszyńska Magdalena", "title": "Berlin", "publisher": "ExpressMap", "yearOfPublication": "2015", "pages" : "312", "ISBN": "978-83-7546-930-1", "add" : "explore!guide wydanie III"},
+        {"author": "Eisenschmid Rainer, Buddee Gisela", "title": "Berlin Potsdam", "publisher": "Baedeker", "yearOfPublication": "2015", "pages" : "396", "ISBN": "978-3-8297-1348-1", "add" : "22. Auflage"},
+        {"author": "Halbach Gustav", "title": "Ganz Berlin", "publisher": "Nicolaische Verlagsbuchhandlung", "yearOfPublication": "2014", "pages" : "760", "ISBN": "978-3894797898", "add" : "5. Auflage"},
+        {"author": "(red] Griffiths Clare", "title": "Berlin", "publisher": "Mediaprofit Sp. z o.o.", "yearOfPublication": "2009", "pages" : "304", "ISBN": "978-83-601809-13-5", "add" : "Biblioteka Gazety Wyborczej seria Miasta Marzeń; wydanie oryginalne Insight Guides Berlin"},
+        {"author": "Richie Alexandra", "title": "Berlin. Metropolia Fausta tom 1", "publisher": "W.A.B.", "yearOfPublication": "2016", "pages" : "592", "ISBN": "978-83-280-2109-9", "add" : "tom 2 W.A.B 2018, s 576. ISBN 978-83-28027763"},
+        {"author": "Rott Wilfried", "title": "Wyspa. Dzieje Berlina Zachodniego 1948-1990", "publisher": "Wydawnictwo Naukowe PWN", "yearOfPublication": "", "pages" : "388", "ISBN": "978-83-01-16837-7", "add" : ""},
+        {"author": "MacLean Rory", "title": "Berlin. Miasto z wyobraźni", "publisher": "Magnum", "yearOfPublication": "2014", "pages" : "392", "ISBN": "9788363986605", "add" : "?"},
+        {"author": "Danielewicz Dorota", "title": "Berlin. Przewodnik po duszy miasta", "publisher": "Foksal", "yearOfPublication": "2016", "pages" : "286", "ISBN": "978-83-280-2709-1", "add" : "?"},
+        {"author": "Bahm Karl", "title": "Berlin 1945", "publisher": "Bellona", "yearOfPublication": "2015", "pages" : "254", "ISBN": "9788311135710", "add" : "?"},
+        {"author": "Salmonowicz Stanisław ", "title": "Prusy. dzieje państwa i społeczeństwa", "publisher": "Książka i Wiedza", "yearOfPublication": "1998", "pages" : "512", "ISBN": "83-05-13333-8", "add" : "?"},
+        {"author": "Salmonowicz Stanisław", "title": "Fryderyk Wielki", "publisher": "Ossolineum", "yearOfPublication": "2006", "pages" : "284", "ISBN": "83-04-04807-8", "add" : "2 wydanie"},
+        {"author": "Geisler Kurt", "title": "The Berlin Cathedral The Church by the Lustgarten", "publisher": "Oberpfarr- und Domkirche zu Berlin", "yearOfPublication": "2019", "pages" : "56", "ISBN": "", "add" : ""},
+        {"author": "Hoppe Ralph, Klünner Hans-Werner", "title": "'Unter den Linden' in Berlin Panoramen Pläne Perspektiven Mit einem Faltplan", "publisher": "www.panorama-berlin.de", "yearOfPublication": "2011", "pages" : "80", "ISBN": "978-3938753149", "add" : ""},
+        {"author": "Krause Ulrike", "title": "Berlin Potsdam mit Sanssouci", "publisher": "ADAC", "yearOfPublication": "2014", "pages" : "192", "ISBN": "978-3-95689-014-7", "add" : "neu bearbaitete Auflage"},
+        {"author": "Omilanowska Małgorzata, Scheunemann Jürgen", "title": "Vis-à-Vis Reiseführer Berlin: mit Extra-Karte und Mini-Kochbuch zum Herausnehmen", "publisher": "Dorling Kindersley Reiseführer", "yearOfPublication": "2018", "pages" : "352", "ISBN": "978-3734202032", "add" : "17th"},
+        {"author": "Schneidewind Bernhard", "title": "Berlin i Poczdam", "publisher": "Schoning Verlag", "yearOfPublication": "2009", "pages" : "64", "ISBN": "978-3-89917-378-9", "add" : "7 Auflage"},
+        {"author": "Lehmstedt Kerstin", "title": "Potsdam an einem Tag Ein Stadtrundgang", "publisher": "Lehmstedt", "yearOfPublication": "2017", "pages" : "48", "ISBN": "978-3-942473-06-4", "add" : "4. aktualisierte Auflage"},
+        {"author": "Berndt Harald, Simmich Matthias", "title": "Schloss Cecilienhoff", "publisher": "Stiftung Preußische Schlösser und Gärten", "yearOfPublication": "2020", "pages" : "52", "ISBN": "978-3-422-98308-3", "add" : ""},
+        {"author": "Micklitza André, Micklitza Kerstin", "title": "Spreewald: Unterwegs zwischen Burg, Lübbenau, Lübben und Schlepzig", "publisher": "Trescher Verlag", "yearOfPublication": "2019", "pages" : "156", "ISBN": "978-3-89784-458-5", "add" : "5 Auflage"}
+    ],
+"sachsen" : [
+        {"author": "", "title": "", "publisher": "", "yearOfPublication": "", "pages" : "", "ISBN": "", "add" : "", "originalEditionYear" : ""}
+    ],
 "copypaste" : [
         {"author": "", "title": "", "publisher": "", "yearOfPublication": "", "pages" : "", "ISBN": "", "add" : "", "originalEditionYear" : ""}
     ]
