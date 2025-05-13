@@ -14,53 +14,47 @@ description2: "Podsumowanie zakończonej i na tę chwilę zamkniętej kroniki wo
 ---
 
 import FBBoxImageWrapper from '../../components/FBBoxImageWrapper.astro'
+import SeeAlso from '../../components/FBSeeAlso.astro'
 
-### Edycja 2022 - podsumowanie
+### Willkommen zurück
+
+Oto kolejna edycja Bloga Wojennego - codziennej relacji z ostatnich 120 dni Drugiej Wojny Światowej. Już trzeci raz z rzędu zaczęła się w kilkudniowym opóźnieniem, ale bez przeszkód dotarła do końca. Opóźnienie wynikło ze zmiany frameworka, z Gatsby'ego na Astro.
+
+### Edycja 2025 - podsumowanie
 
 119 dni wojny, od 12 stycznia do 10 maja 1945. Wrocław, Dolny Śląsk, Polska, Europa, świat.
 
+<SeeAlso comment="Więcej o historii bloga" txt="Blog Wojenny - 2015-25" url="/festung-breslau/article/blog/" />
+
 ### Co się udało?
 
-- Przejrzenie treści i usunięcie całej masy literówek, błędów, poprawienie brzmienia. Skrócenie zdań.
-- Korekta chronologiczna. W kilku przypadkach wydarzenie było źle przypisane do dnia, wszystkie takie przypadki, które zidentyfikowałem, są poprawione.
-- Uzupełnienie o nową treść. Nie jest to co prawda skok, tak jak w ubiegłym roku o jakieś 30%, raczej o 10%.
-- Jako nową treść, w sumie nową kategorię treści należy też doliczyć serię artykułów o poszczególnych krajach europejskich podczas wojny. Kontekst tego co się działo np. w Europie płd-wsch nie jest jak sądzę dobrze w Polsce znany. Jak większość treści na tym blogu mają one charakter rozwojowy i jest to początek pewnej ogólnej narracji.
-- Zmiana mechanizmu aktualizacji bloga, przedtem musiałem zmieniać parametr we frontmatterze, robić commita i puszować go na GH, że się tak wyrażę. Tym razem celem była całkowicie automatyczna aktualizacja. To niestety udało się połowicznie, o ile sam mechanizm jest OK to istotną cechą statycznej strony (a takie generuje Gatsby) jest... statyczność. Tzn. że każda zmiana wymaga rekompilacji (przebudowy) strony na serwerze. To, owszem, można robić automatycznie przy użyciu takich narzędzi jak [IFTTT](https://ifttt.com/). To jednak, jak się okazuje, nie działa. Tzn. działa, ale nie daje efektu, bo musiałoby przy okazji wyczyścić bufor. Czemu jednak kiedy ja wrzucam aktualizację, to nie muszę czyścić bufora żeby weszła? Ostatecznie nie był to jedna tak wielki problem, bo i tak codziennie coś poprawiałem i były zmiany do skomitowania. Trzeba jednak będzie tę sprawę dokładnie zbadać.
-- Nowe właściwości bloga. Zaliczam to do tego co się udało, bo ważniejsza część się udała. Działają tagi i linkowanie komponentem "Więcej na ten temat w osobnym artykule:". Brakujące wymieniam poniżej.
+- Dodałem zupełnie nowy element uzupełniający blog wojenny - wspomnienia więźniarki wrocławskiego Gestapo, Marii Langner, książka prawie zapomniana, wydana w Polsce raz w 1951 i cytowana w kilku źródłach [Maria Langner "Ostatni bastion"](/maria-langner).
+- Więcej cytatów, głównie z książki Ryszarda Majewskiego "Dolny Śląsk 1945 Wyzwolenie".
+- Dziesiątki uzupełnień i korekt.
+- Bibliografia, w granicach możliwości kompletna, do tego wreszcie rozpisana w JSON-ie, więc łatwa do zarządzania i aktualizacji.
+- Przeniesienie bloga, ba! całej strony z Gatsby'ego, który przestał być rozwijany 2023 na inny framework: Astro.
+- Każdy wpis ma automatycznie generowany spis treści.
 
 To wszystko i prawdę mówiąc nie jestem z tym szczęśliwy, mogło się udać więcej. I na pewno by się udało gdybym miał więcej czasu.
 
 ### Co się (jeszcze) nie udało?
 
-#### Plany z 2020:
+Plany związane z poprzednimi edycjami:
 
-- Dociągnięcie kalendarium do 10 maja przynajmniej.
-- Uzupełnienie bibliografii.
+- Sensowne kalendarium.
 - Biografie narratorów i innych postaci związanych z bitwą o Wrocław.
-- Opis broni i składu garnizonu i oblegającej Twierdzę 6 Armii.
+- Opis broni i ordre de bataille obu stron.
 - Opis wojny na Śląsku; w kilku artykułach, bo wątpię by jeden wystarczył, więc trzeba będzie to podzielić na oddzielne operacje.
+- Opis ważniejszych bitew (przede wszystkim Poznań) i operacji.
+- Brakujące ficzery bloga: wyszukiwarka, chmura tagów, następny/poprzedni, komponent z listą najpopularniejszych wpisów, menu hamburger dla artykułów, tryby ciemny jasny (jasny w tym wypadku) i być może przyciski do publikacji na Facebooku i Twitterze oraz komentarze.
+- Newsletter, którego powstanie miało być praktyką po kursie [Mailketingu](https://mailketing.pl/) (który polecam). Przygotowałem infrastrukturę: maile, przekierowania na gmailu i skonfigurowany profil na MailerLite, ale żeby można było z tym ruszyć, trzeba było mieć wystarczający zapas napisanych na 100% wpisów i czas na korektę treści (błędy składni czy literówki w newsletterze to straszna, bo nienaprawialna wtopa). Z kolejną edycją czyli 2030.
 - I na końcu rzecz, do której zabieram się od dawna, powstawanie Polski powojennej, w kilku częściach, pierwsza od 1 września do Armii Andersa, druga tworzenie przyszłej Polski komunistycznej aż do zajęcia Lublina, trzecia Rzeczpospolita Lubelska i czwarta to, co było potem do Poczdamu. Zasadniczą i osobną częścią powyższego będzie najdokładniejszy, jak się da opis zadomawiania się Polaków we Wrocławiu, tu trzeba będzie również wspomnieć o tych, których przywieziono przemocą, i już pozostali, więc wszystkie obozy pracy.
 
-#### Plany z 2021
-
-- Pewne dość oczekiwane w przypadku bloga właściwości, te brakujące wymieniam poniżej.
-- Newsletter, którego powstanie miało być praktyką po kursie [Mailketingu](https://mailketing.pl/) (który polecam). Przygotowałem infrastrukturę: maile, przekierowania na gmailu i skonfigurowany profil na MailerLite, ale żeby można było z tym ruszyć, trzeba było mieć wystarczający zapas napisanych na 100% wpisów i czas na korektę treści (błędy składni czy literówki w newsletterze to straszna, bo nienaprawialna wtopa). Może w przyszłym roku.
-
-### A zatem co teraz?
-
-OK, zatem jak przedstawiają się dalsze plany? Co do samej kroniki wojennej:
-
-- W tym roku powinny dojść Biografia, Kalendarium, kilka biogramów i dodatkowe artykuły, wszystkie ukończone będę wrzucał na Facebooka.
-- Mowa treść, tak, bo wbrew pozorom całkiem spora część wojny przeleciała bez wzmianki i tu nawet nie będę wymieniał całej serii zagadnień, które powinienem dodać.
-- Brakujące ficzery bloga: chmura tagów, wyszukiwarka, następny/poprzedni, komponent z listą najpopularniejszych wpisów, menu hamburger dla artykułów, tryby ciemny jasny (jasny w tym wypadku), przyciski do publikacji na Facebooku i Twitterze i być może komentarze.
-- Newsletter, to zależy od tego, czy będę miał czas i uznam to za potrzebne, ale całkiem możliwe, że w przyszłym roku od samego początku kolejnej edycji, czy nastąpi w przyszłym roku, to zależy od tego w jakim stopniu uda mi się zapewnić coś istotnie nowego.
-
-Wszystko to powinno powstać i zostać dodane systematycznie - element po elemencie - w ciągu roku.
-
 Powiązane:
-- Jak zrobić stronę w Gatsby'm opisuję w serii wpisów na blogu [Hello, Gatsby!](https://dygresje.info/blog/gatsby), jeden z wpisów dotyczy mechanizmu bloga MDX, w tym roku dopiszę kolejne opisujące dość dokładnie powyższe ficzery / elementy.
+
 - Strona o [Akcji T4](https://github.com/tdudkowski/t4), tu niestety przerosła mnie powaga tematyki, ale podobnie jak ze wszystkim ważnym na mojej stronie, będzie musiało poczekać
 - Zupełnie nowy projekt, o którym napiszę, ale dopiero jak zacznie powstawać: Kartografia Terroru.
+- Tak jak poprzednio napisałem serię wpisów o Gatsby'm, tak teraz mam w planach podobną o Astro.
 
 ### Na zakończenie PODZIĘKOWANIA!
 
