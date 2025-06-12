@@ -97,12 +97,8 @@
     {"author": "Le Tissier Tony", "title": "With Our Backs to Berlin: The German Army in Retreat 1945", "publisher": "The History Press", "yearOfPublication": "2021", "pages" : "264", "ISBN": "978-0750998482", "add" : "Second Edition,New edition (December 3, 2021); 280 pages in another edition", "originalEditionYear" : ""}
 ],
 "de" : [
-        {"author": "Adamczak Sławoomir, Firlej Katarzyna", "title": "Niemcy praktyczny przewodnik", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "708", "ISBN": "978-83-7513-107-9", "add" : ""},
-        {"author": "Arnold Rosemarie, Arnold Walter R. et al", "title": "Austria", "publisher": "Baedeker", "yearOfPublication": "2009", "pages" : "606", "ISBN": "978-3-8297-6613-5", "add" : "12 Auflage, dodac autorow"},
+        {"author": "Adamczak Sławoomir, Firlej Katarzyna", "title": "Niemcy praktyczny przewodnik", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "708", "ISBN": "978-83-7513-107-9", "add" : ""},     
         {"author": "", "title": "Die DDR Eine Chronik deutscher Geschichte", "publisher": "Otus Verlag AG", "yearOfPublication": "2018", "pages" : "192", "ISBN": "978-3-7359-1258-9", "add" : ""},
-        {"author": "Woods Sarah", "title": "Wiedeń", "publisher": "Wydawnictwo G+J RBA", "yearOfPublication": "2013", "pages" : "272", "ISBN": "978-83-7596-437-0", "add" : "National Geographic Przewodnik"},
-        {"author": "Czerwińska Barbara, Nowak Małgorzata", "title": "Wiedeń", "publisher": "ExpressMap", "yearOfPublication": "2017", "pages" : "288", "ISBN": "978-83-7546-484-9", "add" : "explore!guide wydanie 3"},
-        {"author": "Eickhoff Peter", "title": "111 Orte in Wien die Man gesehen haben muss", "publisher": "Emons Verlah GmbH", "yearOfPublication": "2024", "pages" : "240", "ISBN": "978-3-7408-1975-0", "add" : "Erstausgabe 2012"},
         {"author": "Arens Detlev, Bongartz Marianne, Henseler Stephanie", "title": "Köln", "publisher": "Dumont", "yearOfPublication": "2018", "pages" : "296", "ISBN": "978-3-7701-7519-2", "add" : "Reise-Taschenbuch, 4. aktualisierte Auflage 2018"}
     ],
 "brandenburg" : [
@@ -184,6 +180,28 @@
 
         {"author": "Monzer Frieder, Böhme-Schalling Hermann", "title": "Erzgebirge: Traditionen, Städte und Landschaften zwischen Chemnitz und Egergraben", "publisher": "Trescher", "yearOfPublication": "2019", "pages" : "336", "ISBN": "978-3897944459", "add" : "Auflage 1"},        
         {"author": "Mundus Doris", "title": "Leipzig an einem Tag: Ein Stadtrundgang", "publisher": "Lehmstedt Verlag", "yearOfPublication": "2019", "pages" : "64", "ISBN": "978-3937146-43-0", "add" : "8. aktualizierte Auflage"}
+    ],
+    "cesko" : [
+        {"author": "Herre Sabine, Micklitza Kerstin i Andre, Weiß Helmuth, Wurth Andrea", "title": "Czechy", "publisher": "Baedeker", "yearOfPublication": "2008", "pages" : "414", "ISBN": "978-3-8297-6557-2", "add" : "na podstawie wydania 3, zaktualizowanego 2006", "originalEditionYear" : ""},
+        {"author": "Adamczak Sławomir, Firlej Katarzyna", "title": "Czechy. Praktyczny przewodnik", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "504", "ISBN": "978-83-7513-144-4", "add" : "", "originalEditionYear" : ""},
+        {"author": "Adamczak Sławomir, Firlej Katarzyna", "title": "Czechy. Przewodnik Ilustrowany", "publisher": "Pascal", "yearOfPublication": "2007", "pages" : "320", "ISBN": "978-83-7304-851-5", "add" : "", "originalEditionYear" : ""},
+        {"author": "Krausowa-Żur Izabela", "title": "Czechy. Gospoda pełna humoru", "publisher": "Bezdroża", "yearOfPublication": "2007", "pages" : "464", "ISBN": "978-83-60506-56-1", "add" : "wydanie II", "originalEditionYear" : ""},
+        {"author": "Krausowa-Żur Izabela", "title": "Czechy", "publisher": "Ergo Hestia Bezdroża", "yearOfPublication": "2011", "pages" : "668", "ISBN": "978-83-7661-", "add" : "Zielony Przewodnik Michelin", "originalEditionYear" : ""},
+        {"author": "", "title": "Czechy na Weekend", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "", "ISBN": "978-83-7513-193-2", "add" : "", "originalEditionYear" : ""},
+        {"author": "Wilczyński Piotr", "title": "Czechy i północna Austria", "publisher": "Carta Blanca", "yearOfPublication": "2009", "pages" : "128", "ISBN": "978-83-61444-35-0", "add" : "", "originalEditionYear" : ""},
+        {"author": "Ciesielski Michał, Kurzyk Irena i Marek", "title": "Czechy na rowerze", "publisher": "Pascal", "yearOfPublication": "2006", "pages" : "280", "ISBN": "83-7304-713-1", "add" : "", "originalEditionYear" : ""},
+        {"author": "Grygielska Paulina", "title": "Praga", "publisher": "Wydawnictwo Kartograficzne EKO-GRAF", "yearOfPublication": "2016", "pages" : "256", "ISBN": "978-83-61157-75-5", "add" : "", "originalEditionYear" : "2016"},
+        {"author": "Strojny Aleksander", "title": "Praga. Złoty hrad nad Wełtawą", "publisher": "Bezdroża", "yearOfPublication": "2007", "pages" : "240", "ISBN": "978-83-60506-57-8", "add" : "wydanie IV, 2007", "originalEditionYear" : ""},
+        {"author": "Reincke Madeleine", "title": "Praga", "publisher": "Baedeker", "yearOfPublication": "2011", "pages" : "286", "ISBN": "978-3-8297-6487-2", "add" : "wydanie polskie 2011", "originalEditionYear" : ""},
+        {"author": "", "title": "Prague. Detailed Picture Guide", "publisher": "ATP Publishing", "yearOfPublication": "2007", "pages" : "154", "ISBN": "80-86893-50-2", "add" : "", "originalEditionYear" : ""},
+        {"author": "Kuthan Jiří, Royt Jan", "title": "Katedrála sv. Víta, Václava a Vojtěcha", "publisher": "Karmelitánské nakladatelství", "yearOfPublication": "2023", "pages" : "136", "ISBN": "978-80-7566-192-0", "add" : "", "originalEditionYear" : ""}
+    ],
+    "osterreich" : [
+        {"author": "Arnold Rosemarie, Arnold Walter R. et al", "title": "Austria", "publisher": "Baedeker", "yearOfPublication": "2009", "pages" : "606", "ISBN": "978-3-8297-6613-5", "add" : "12 Auflage, dodac autorow"},
+        {"author": "Woods Sarah", "title": "Wiedeń", "publisher": "Wydawnictwo G+J RBA", "yearOfPublication": "2013", "pages" : "272", "ISBN": "978-83-7596-437-0", "add" : "National Geographic Przewodnik"},
+        {"author": "Czerwińska Barbara, Nowak Małgorzata", "title": "Wiedeń", "publisher": "ExpressMap", "yearOfPublication": "2017", "pages" : "288", "ISBN": "978-83-7546-484-9", "add" : "explore!guide wydanie 3"},
+        {"author": "Eickhoff Peter", "title": "111 Orte in Wien die Man gesehen haben muss", "publisher": "Emons Verlah GmbH", "yearOfPublication": "2024", "pages" : "240", "ISBN": "978-3-7408-1975-0", "add" : "Erstausgabe 2012"},
+        {"author": "Iby Elfriede", "title": "Schloss Schönbrunn, Kaiserliche Sommerresidenz", "publisher": "Schloß Schönbrunn Kultur- und Betriebs GmbH", "yearOfPublication": "2024", "pages" : "168", "ISBN": "978-3-99170-038-8", "add" : "Aktualizierte Auflage", "originalEditionYear" : ""}
     ],
 "copypaste" : [
         {"author": "", "title": "", "publisher": "", "yearOfPublication": "", "pages" : "", "ISBN": "", "add" : "", "originalEditionYear" : ""}
