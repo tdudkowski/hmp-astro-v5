@@ -102,7 +102,7 @@
         {"author": "Arens Detlev, Bongartz Marianne, Henseler Stephanie", "title": "Köln", "publisher": "Dumont", "yearOfPublication": "2018", "pages" : "296", "ISBN": "978-3-7701-7519-2", "add" : "Reise-Taschenbuch, 4. aktualisierte Auflage 2018"}
     ],
 "brandenburg" : [
-        {"author": "Czupryna Joanna Maria, Ptaszyńska Magdalena", "title": "Berlin", "publisher": "ExpressMap", "yearOfPublication": "2015", "pages" : "312", "ISBN": "978-83-7546-930-1", "add" : "explore!guide wydanie III"},
+        {"author": "Czupryna Joanna Maria, Ptaszyńska Magdalena", "title": "Berlin 3 w 1", "publisher": "ExpressMap", "yearOfPublication": "2015", "pages" : "312", "ISBN": "978-83-7546-930-1", "add" : "explore!guide wydanie III"},
         {"author": "Eisenschmid Rainer, Buddee Gisela", "title": "Berlin Potsdam", "publisher": "Baedeker", "yearOfPublication": "2015", "pages" : "396", "ISBN": "978-3-8297-1348-1", "add" : "22. Auflage"},
         {"author": "Halbach Gustav", "title": "Ganz Berlin", "publisher": "Nicolaische Verlagsbuchhandlung", "yearOfPublication": "2014", "pages" : "760", "ISBN": "978-3894797898", "add" : "5. Auflage"},
         {"author": "(red] Griffiths Clare", "title": "Berlin", "publisher": "Mediaprofit Sp. z o.o.", "yearOfPublication": "2009", "pages" : "304", "ISBN": "978-83-601809-13-5", "add" : "Biblioteka Gazety Wyborczej seria Miasta Marzeń; wydanie oryginalne Insight Guides Berlin"},
@@ -118,8 +118,9 @@
         {"author": "Krause Ulrike", "title": "Berlin Potsdam mit Sanssouci", "publisher": "ADAC", "yearOfPublication": "2014", "pages" : "192", "ISBN": "978-3-95689-014-7", "add" : "neu bearbaitete Auflage"},
         {"author": "Omilanowska Małgorzata, Scheunemann Jürgen", "title": "Vis-à-Vis Reiseführer Berlin: mit Extra-Karte und Mini-Kochbuch zum Herausnehmen", "publisher": "Dorling Kindersley Reiseführer", "yearOfPublication": "2018", "pages" : "352", "ISBN": "978-3734202032", "add" : "17th"},
         {"author": "Schneidewind Bernhard", "title": "Berlin i Poczdam", "publisher": "Schoning Verlag", "yearOfPublication": "2009", "pages" : "64", "ISBN": "978-3-89917-378-9", "add" : "7 Auflage"},
+        {"author": "Wolfgang Mörtl", "title": "Bergführer Potsdam. Die schönsten Spaziergänge zu den 75 Gipfeln der Stadt", "publisher": "be.bra Verlag", "yearOfPublication": "2022", "pages" : "192", "ISBN": "978-3-86124-745-6", "add" : "2. durchgesehene Auflage", "originalEditionYear" : ""},
         {"author": "Lehmstedt Kerstin", "title": "Potsdam an einem Tag Ein Stadtrundgang", "publisher": "Lehmstedt", "yearOfPublication": "2017", "pages" : "48", "ISBN": "978-3-942473-06-4", "add" : "4. aktualisierte Auflage"},
-        {"author": "Berndt Harald, Simmich Matthias", "title": "Schloss Cecilienhoff", "publisher": "Stiftung Preußische Schlösser und Gärten", "yearOfPublication": "2020", "pages" : "52", "ISBN": "978-3-422-98308-3", "add" : ""},
+        {"author": "Berndt Harald, Simmich Matthias", "title": "Schloss Cecilienhoff", "publisher": "Stiftung Preußische Schlösser und Gärten", "yearOfPublication": "2020", "pages" : "52", "ISBN": "978-3-422-98308-3", "add" : "2. Auflage"},
         {"author": "Micklitza André, Micklitza Kerstin", "title": "Spreewald: Unterwegs zwischen Burg, Lübbenau, Lübben und Schlepzig", "publisher": "Trescher Verlag", "yearOfPublication": "2019", "pages" : "156", "ISBN": "978-3-89784-458-5", "add" : "5 Auflage"}
     ],
 "sachsen" : [
@@ -184,7 +185,7 @@
     "cesko" : [
         {"author": "Herre Sabine, Micklitza Kerstin i Andre, Weiß Helmuth, Wurth Andrea", "title": "Czechy", "publisher": "Baedeker", "yearOfPublication": "2008", "pages" : "414", "ISBN": "978-3-8297-6557-2", "add" : "na podstawie wydania 3, zaktualizowanego 2006", "originalEditionYear" : ""},
         {"author": "Adamczak Sławomir, Firlej Katarzyna", "title": "Czechy. Praktyczny przewodnik", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "504", "ISBN": "978-83-7513-144-4", "add" : "", "originalEditionYear" : ""},
-        {"author": "Adamczak Sławomir, Firlej Katarzyna", "title": "Czechy. Przewodnik Ilustrowany", "publisher": "Pascal", "yearOfPublication": "2007", "pages" : "320", "ISBN": "978-83-7304-851-5", "add" : "", "originalEditionYear" : ""},
+        {"author": "Adamczak Sławomir, Firlej Katarzyna", "title": "Czechy. Przewodnik Ilustrowany", "publisher": "Pascal", "yearOfPublication": "2007", "pages" : "320", "ISBN": "978-83-7304-851-5", "add" : "MasterCard", "originalEditionYear" : ""},
         {"author": "Krausowa-Żur Izabela", "title": "Czechy. Gospoda pełna humoru", "publisher": "Bezdroża", "yearOfPublication": "2007", "pages" : "464", "ISBN": "978-83-60506-56-1", "add" : "wydanie II", "originalEditionYear" : ""},
         {"author": "Krausowa-Żur Izabela", "title": "Czechy", "publisher": "Ergo Hestia Bezdroża", "yearOfPublication": "2011", "pages" : "668", "ISBN": "978-83-7661-", "add" : "Zielony Przewodnik Michelin", "originalEditionYear" : ""},
         {"author": "", "title": "Czechy na Weekend", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "", "ISBN": "978-83-7513-193-2", "add" : "", "originalEditionYear" : ""},
@@ -193,8 +194,12 @@
         {"author": "Grygielska Paulina", "title": "Praga", "publisher": "Wydawnictwo Kartograficzne EKO-GRAF", "yearOfPublication": "2016", "pages" : "256", "ISBN": "978-83-61157-75-5", "add" : "", "originalEditionYear" : "2016"},
         {"author": "Strojny Aleksander", "title": "Praga. Złoty hrad nad Wełtawą", "publisher": "Bezdroża", "yearOfPublication": "2007", "pages" : "240", "ISBN": "978-83-60506-57-8", "add" : "wydanie IV, 2007", "originalEditionYear" : ""},
         {"author": "Reincke Madeleine", "title": "Praga", "publisher": "Baedeker", "yearOfPublication": "2011", "pages" : "286", "ISBN": "978-3-8297-6487-2", "add" : "wydanie polskie 2011", "originalEditionYear" : ""},
+        {"author": "Byrtek Katarzyna", "title": "Praga 3 w 1", "publisher": "ExpressMap", "yearOfPublication": "2018", "pages" : "252", "ISBN": "978-83-8046-370-7", "add" : "explore!guide, wydanie piąte", "originalEditionYear" : ""},
+        {"author": "Gieorgijewska Eugenia", "title": "Praga", "publisher": "Wydawnictwa Artystyczne i Filmowe", "yearOfPublication": "1977", "pages" : "224", "ISBN": "", "add" : "Artystyczne Stolice Świata", "originalEditionYear" : "1967"},
+        {"author": "Szymański Roman", "title": "Złota Praga. Miasto nie do opowiedzenia", "publisher": "Press Forum Polanica Zdrój", "yearOfPublication": "2013", "pages" : "262", "ISBN": "978-83-64338-01-4", "add" : "", "originalEditionYear" : ""},
         {"author": "", "title": "Prague. Detailed Picture Guide", "publisher": "ATP Publishing", "yearOfPublication": "2007", "pages" : "154", "ISBN": "80-86893-50-2", "add" : "", "originalEditionYear" : ""},
-        {"author": "Kuthan Jiří, Royt Jan", "title": "Katedrála sv. Víta, Václava a Vojtěcha", "publisher": "Karmelitánské nakladatelství", "yearOfPublication": "2023", "pages" : "136", "ISBN": "978-80-7566-192-0", "add" : "", "originalEditionYear" : ""}
+        {"author": "Kuthan Jiří, Royt Jan", "title": "Katedrála sv. Víta, Václava a Vojtěcha", "publisher": "Karmelitánské nakladatelství", "yearOfPublication": "2023", "pages" : "136", "ISBN": "978-80-7566-192-0", "add" : "", "originalEditionYear" : ""},
+        {"author": "Rusin Wiesława, Zygmańska Barbara, Klimek Paweł", "title": "Słowacja. Praktyczny przewodnik", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "524", "ISBN": "978-83-7513-207-6", "add" : "", "originalEditionYear" : ""}
     ],
     "osterreich" : [
         {"author": "Arnold Rosemarie, Arnold Walter R. et al", "title": "Austria", "publisher": "Baedeker", "yearOfPublication": "2009", "pages" : "606", "ISBN": "978-3-8297-6613-5", "add" : "12 Auflage, dodac autorow"},
