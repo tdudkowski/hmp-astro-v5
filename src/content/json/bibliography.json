@@ -98,7 +98,7 @@
 ],
 "de" : [
         {"author": "Adamczak Sławoomir, Firlej Katarzyna", "title": "Niemcy praktyczny przewodnik", "publisher": "Pascal", "yearOfPublication": "2008", "pages" : "708", "ISBN": "978-83-7513-107-9", "add" : ""},     
-        {"author": "", "title": "Die DDR Eine Chronik deutscher Geschichte", "publisher": "Otus Verlag AG", "yearOfPublication": "2018", "pages" : "192", "ISBN": "978-3-7359-1258-9", "add" : ""},
+        {"author": "", "title": "Die DDR. Eine Chronik deutscher Geschichte", "publisher": "Otus Verlag AG", "yearOfPublication": "2018", "pages" : "192", "ISBN": "978-3-7359-1258-9", "add" : ""},
         {"author": "Arens Detlev, Bongartz Marianne, Henseler Stephanie", "title": "Köln", "publisher": "Dumont", "yearOfPublication": "2018", "pages" : "296", "ISBN": "978-3-7701-7519-2", "add" : "Reise-Taschenbuch, 4. aktualisierte Auflage 2018"}
     ],
 "brandenburg" : [
@@ -106,7 +106,8 @@
         {"author": "Eisenschmid Rainer, Buddee Gisela", "title": "Berlin Potsdam", "publisher": "Baedeker", "yearOfPublication": "2015", "pages" : "396", "ISBN": "978-3-8297-1348-1", "add" : "22. Auflage"},
         {"author": "Halbach Gustav", "title": "Ganz Berlin", "publisher": "Nicolaische Verlagsbuchhandlung", "yearOfPublication": "2014", "pages" : "760", "ISBN": "978-3894797898", "add" : "5. Auflage"},
         {"author": "(red] Griffiths Clare", "title": "Berlin", "publisher": "Mediaprofit Sp. z o.o.", "yearOfPublication": "2009", "pages" : "304", "ISBN": "978-83-601809-13-5", "add" : "Biblioteka Gazety Wyborczej seria Miasta Marzeń; wydanie oryginalne Insight Guides Berlin"},
-        {"author": "Richie Alexandra", "title": "Berlin. Metropolia Fausta tom 1", "publisher": "W.A.B.", "yearOfPublication": "2016", "pages" : "592", "ISBN": "978-83-280-2109-9", "add" : "tom 2 W.A.B 2018, s 576. ISBN 978-83-28027763"},
+        {"author": "Richie Alexandra", "title": "Berlin. Metropolia Fausta tom I", "publisher": "W.A.B.", "yearOfPublication": "2016", "pages" : "592", "ISBN": "978-83-280-2109-9"},
+        {"author": "Richie Alexandra", "title": "Berlin. Metropolia Fausta tom II", "publisher": "W.A.B.", "yearOfPublication": "2021", "pages" : "816", "ISBN": "978-83-280-9263-1", "add" : "1998"},
         {"author": "Rott Wilfried", "title": "Wyspa. Dzieje Berlina Zachodniego 1948-1990", "publisher": "Wydawnictwo Naukowe PWN", "yearOfPublication": "", "pages" : "388", "ISBN": "978-83-01-16837-7", "add" : ""},
         {"author": "MacLean Rory", "title": "Berlin. Miasto z wyobraźni", "publisher": "Magnum", "yearOfPublication": "2014", "pages" : "392", "ISBN": "9788363986605", "add" : "?"},
         {"author": "Danielewicz Dorota", "title": "Berlin. Przewodnik po duszy miasta", "publisher": "Foksal", "yearOfPublication": "2016", "pages" : "286", "ISBN": "978-83-280-2709-1", "add" : "?"},
@@ -118,11 +119,14 @@
         {"author": "Krause Ulrike", "title": "Berlin Potsdam mit Sanssouci", "publisher": "ADAC", "yearOfPublication": "2014", "pages" : "192", "ISBN": "978-3-95689-014-7", "add" : "neu bearbaitete Auflage"},
         {"author": "Omilanowska Małgorzata, Scheunemann Jürgen", "title": "Vis-à-Vis Reiseführer Berlin: mit Extra-Karte und Mini-Kochbuch zum Herausnehmen", "publisher": "Dorling Kindersley Reiseführer", "yearOfPublication": "2018", "pages" : "352", "ISBN": "978-3734202032", "add" : "17th"},
         {"author": "Schneidewind Bernhard", "title": "Berlin i Poczdam", "publisher": "Schoning Verlag", "yearOfPublication": "2009", "pages" : "64", "ISBN": "978-3-89917-378-9", "add" : "7 Auflage"},
-        {"author": "Wolfgang Mörtl", "title": "Bergführer Potsdam. Die schönsten Spaziergänge zu den 75 Gipfeln der Stadt", "publisher": "be.bra Verlag", "yearOfPublication": "2022", "pages" : "192", "ISBN": "978-3-86124-745-6", "add" : "2. durchgesehene Auflage", "originalEditionYear" : ""},
         {"author": "Lehmstedt Kerstin", "title": "Potsdam an einem Tag Ein Stadtrundgang", "publisher": "Lehmstedt", "yearOfPublication": "2017", "pages" : "48", "ISBN": "978-3-942473-06-4", "add" : "4. aktualisierte Auflage"},
+        {"author": "Kroll Frank-Lothar", "title": "Preussens Herrscher: Von den ersten Hohenzollern bis Wilhelm II.", "publisher": "C.H.Beck", "yearOfPublication": "2009", "pages" : "366", "ISBN": "978-3406541292", "add" : "", "originalEditionYear" : ""},
+        {"author": "Feuerstein-Praßer Karin", "title": "Die preußischen Königinnen", "publisher": "Piper Taschenbuch", "yearOfPublication": "2008", "pages" : "368", "ISBN": "978-3492252959", "add" : "9. Auflage", "originalEditionYear" : ""},
         {"author": "Berndt Harald, Simmich Matthias", "title": "Schloss Cecilienhoff", "publisher": "Stiftung Preußische Schlösser und Gärten", "yearOfPublication": "2020", "pages" : "52", "ISBN": "978-3-422-98308-3", "add" : "2. Auflage"},
-        {"author": "Micklitza André, Micklitza Kerstin", "title": "Spreewald: Unterwegs zwischen Burg, Lübbenau, Lübben und Schlepzig", "publisher": "Trescher Verlag", "yearOfPublication": "2019", "pages" : "156", "ISBN": "978-3-89784-458-5", "add" : "5 Auflage"}
-    ],
+        {"author": "Micklitza André, Micklitza Kerstin", "title": "Spreewald: Unterwegs zwischen Burg, Lübbenau, Lübben und Schlepzig", "publisher": "Trescher Verlag", "yearOfPublication": "2019", "pages" : "156", "ISBN": "978-3-89784-458-5", "add" : "5 Auflage"},
+        {"author": "Wolfgang Mörtl", "title": "Bergführer Potsdam. Die schönsten Spaziergänge zu den 75 Gipfeln der Stadt", "publisher": "be.bra Verlag", "yearOfPublication": "2022", "pages" : "192", "ISBN": "978-3-86124-745-6", "add" : "2. durchgesehene Auflage", "originalEditionYear" : ""},
+        {"author": "Frank Goyke", "title": "Sanssouci entdecken. Ausflüge in Potsdams schönstes Schloss- und Parkensemble", "publisher": "be.bra Verlag", "yearOfPublication": "2023", "pages" : "208", "ISBN": "978-3-89809-220-3", "add" : "1. Auflage", "originalEditionYear" : ""}
+        ],
 "sachsen" : [
         {"author": "Konstantin Hermann, Thieme André", "title": "Sächsische Geschichte im Überblick: Texte, Karten, Grafiken", "publisher": "Edition Leipzig", "yearOfPublication": "2013", "pages" : "240", "ISBN": "978-3-361-00693-5", "add" : ""},
         {"author": "Fellmann Walter", "title": "DuMont Kunst Reiseführer Sachsen", "publisher": "DuMont Reiseverlag", "yearOfPublication": "2012", "pages" : "424", "ISBN": "9783770140930", "add" : "6 aktualisierte Auflage"},
@@ -130,7 +134,9 @@
         {"author": "Wurlitzer Bernd, Sucher Kerstin", "title": "Sachsen. Mit Dresden, Leipzig, Erzgebirge und Sächsischer Schweiz", "publisher": "Trescher", "yearOfPublication": "2018", "pages" : "432", "ISBN": "978-3-89794-402-2", "add" : "4. aktual. und erweiterte Aufl; ?"},
         {"author": "Sucher Kerstin, Wurlitzer Bernd", "title": "Reiseführer WUNDERvolles Sachsen", "publisher": "Steffen Verlag", "yearOfPublication": "2013", "pages" : "280", "ISBN": "978-3-942977-37-6", "add" : "1. Auf"},
         {"author": "Kotte Henner", "title": "Sächsisches Elbland. Die 99 besonderen Seiten der Region", "publisher": "Mitteldeutscher Verlag", "yearOfPublication": "2019", "pages" : "160", "ISBN": "978-3-96311-154-9", "add" : "1. Auflage; ?"},
-        {"author": "", "title": "Die Herrscher Sachsens", "publisher": "Verlag C. H. Beck", "yearOfPublication": "2013", "pages" : "384", "ISBN": "978-3-406-65166-3", "add" : "2 durchgesehene Auflage"},
+        {"author": "Lendt Christine [entdeckt von]", "title": "Elbetal. Die 99 besonderen Seiten der Region", "publisher": "Mitteldeutscher Verlag", "yearOfPublication": "2019", "pages" : "160", "ISBN": "978-3-96311-135-8", "add" : ""},
+        {"author": "Gertoberens Klaus", "title": "Sächsische Erfindungen: 1650 bis heute", "publisher": "DDV Edition", "yearOfPublication": "2023", "pages" : "192", "ISBN": "978-3-938325-31-5", "add" : "", "originalEditionYear" : ""},
+        {"author": "", "title": "Die Herrscher Sachsens: Markgrafen, Kurfürsten, Könige 1089-1918", "publisher": "Verlag C. H. Beck", "yearOfPublication": "2013", "pages" : "384", "ISBN": "978-3-406-65166-3", "add" : "2 durchgesehene Auflage"},
         {"author": "Staszewski Jacek", "title": "August III Sas", "publisher": "Ossolineum", "yearOfPublication": "1998", "pages" : "312", "ISBN": "83-04-04387-4", "add" : ""},
         {"author": "Staszewski Jacek", "title": "August II Mocny", "publisher": "Ossolineum", "yearOfPublication": "1989", "pages" : "316", "ISBN": "978-83-283-1961-5", "add" : ""},
         {"author": "Konstantin Hermann", "title": "Sachsen 1949-1990: Historische Reiseführer durch die DDR", "publisher": "Mitteldeutscher Verlag", "yearOfPublication": "2016", "pages" : "240", "ISBN": "", "add" : "978-3-95462-543-7"}
@@ -147,6 +153,7 @@
         {"author": "Böttger Michael", "title": "Dresden. Rundgänge durch die Stadtgeschichte", "publisher": "Sutton Verlag", "yearOfPublication": "2020", "pages" : "144", "ISBN": "978-3-96303-088-8", "add" : ""},
         {"author": "Kłopotowski Andrzej", "title": "Drezno i Saksonia", "publisher": "Helion", "yearOfPublication": "2016", "pages" : "224", "ISBN": "978-83-283-1961-5", "add" : "seria Bezdroża"},
         {"author": "Mischke Roland, Kleider Anja", "title": "1000 Places To See Before You Die: Stadtführer Dresden spezial", "publisher": "Vista Point;", "yearOfPublication": "2021", "pages" : "208", "ISBN": "", "add" : "978-3961415755"},
+        {"author": "Dülberg Angelica, Oelsner Norbert, Pohlack Rosemarie", "title": "Das Dresdner Residenzschloss", "publisher": "Deutscher Kunstverlag", "yearOfPublication": "2013", "pages" : "96", "ISBN": "978-3-422-02185-5", "add" : "2., uberarbeitete Auflage", "originalEditionYear" : ""},
         {"author": "Donath Matthias, Welich Dirk", "title": "Der Zwinger zu Dresden", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2011", "pages" : "48", "ISBN": "978-3-361-00668-3", "add" : "Edition Leipzig"},
         {"author": "Donath Matthias, Puppe Roland", "title": "Der Grosse Garten in Dresden", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2012", "pages" : "48", "ISBN": "978-3-361-00677-5", "add" : "Edition Leipzig"}
     ],
@@ -172,9 +179,11 @@
     ],
     "sachsen_andere" : [
         {"author": "Winkler Uwe", "title": "Meissen an einem Tag. Ein Stadrundgang", "publisher": "Lehmstedt Verlag", "yearOfPublication": "2016", "pages" : "48", "ISBN": "978-3-95797-031-2", "add" : ""},
+        {"author": "Wolff Friedrich", "title": "Im Elbland Meißen", "publisher": "hendrik Bäßler verlag", "yearOfPublication": "2014", "pages" : "128", "ISBN": "978-3-930388-45-5", "add" : "2. aktualisierte Auflage", "originalEditionYear" : ""},
         {"author": "Papaj Marcin", "title": "Drezno Miśnia. Ilustrowany przewodnik z mapam", "publisher": "Galileos", "yearOfPublication": "2016", "pages" : "60", "ISBN": "978-83-7868-272-1", "add" : "wydanie IV"},
         {"author": "Donath Matthias, Hensel Margitta", "title": "Albrechtsburg Meissen", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2011", "pages" : "72", "ISBN": "978-3-361-00662-1", "add" : "Edition Leipzig"},
         {"author": "Donath Matthias, Hensel Margitta", "title": "Schloss Moritzburg und Fasanenschlösschen", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2017", "pages" : "72", "ISBN": "978-3-361-00707-9", "add" : "Edition Leipzig"},
+        
         {"author": "Gaitzsch Jens", "title": "Zamek Stolpen. Oficjalny przewodnik po zamku", "publisher": "Monumente und Menschen", "yearOfPublication": "", "pages" : "32", "ISBN": "978-3-939609-85-8", "add" : "wydanie 4."},
         {"author": "Gaitzsch Jens", "title": "Burg Stolpen", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2015", "pages" : "48", "ISBN": "978-3-361-00704-8", "add" : "1 Auflage Edition Leipzig"},
         {"author": "Gaitzsch Jens", "title": "Gräfin Cosel. 49 Jahre Gefangene auf Burg Stolpen", "publisher": "Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH", "yearOfPublication": "2018", "pages" : "36", "ISBN": "3-936111-01-4", "add" : "Edition Basalt"},
