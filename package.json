@@ -7,10 +7,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.0.3",
-    "@astrojs/prism": "^3.2.0",
-    "@astrojs/sitemap": "^3.2.1",
-    "astro": "^5.9.2",
+    "@astrojs/mdx": "^4.3.8",
+    "@astrojs/prism": "^3.3.0",
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.15.1",
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
